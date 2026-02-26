@@ -1,7 +1,7 @@
 #!/bin/bash
 
 log () {
-    echo -e "$(date '+%Y-%m-%d %H:%M:%S') - $1"
+    echo -e "$(date '+%Y-%m-%d %H:%M:%S') - $1\n\n"
 }
 
 log "Session-1: add file"
