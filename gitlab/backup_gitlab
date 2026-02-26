@@ -23,23 +23,25 @@ log_green() {
 }
 
 if grep "OoO_NAS" /proc/mounts ; then
-	log_yellow "Start creating the backup job"
-#	gitlab-rake gitlab:backup:create SKIP = db,uploads
-	gitlab-backup create
-	log_green "Backup Process -1 Finished ..."
-	log_green "sleep 10s"
-	sleep 10
-	log_green "Delete backups older than 60 days"
-	find /var/opt/gitlab/backups -name *_gitlab_backup.tar -type f -mtime +60 -exec rm -rf {} \;
-	log_yellow "Starting Backup Database to $backup_des"
-	for i in ${backup_path[@]}; do
-		rsync -avh $i $backup_des
-	done
-	log_green "Backup Success!!! at $timestamp"
-	log_green ""
-	find /var/log/backup_log/ -type f -name "*backup*.log" -mtime +5 -exec rm -rf {} \;
+        log_yellow "Start creating the backup job"
+#       gitlab-rake gitlab:backup:create SKIP = db,uploads
+        gitlab-backup create
+        log_green "Backup Process -1 Finished ..."
+        log_green "sleep 10s"
+        sleep 10
+        log_green "Delete backups older than 60 days"
+        find /var/opt/gitlab/backups -name *_gitlab_backup.tar -type f -mtime +60 -exec rm -rf {} \;
+        log_yellow "Starting Backup Database to $backup_des"
+        for i in ${backup_path[@]}; do
+                rsync -avh $i $backup_des
+        done
+        log_yellow "Starting Backup /etc/gitlab to $backup_des/etc/"
+        rsync -avh /etc/gitlab /OoO_NAS/gitlab/etc/.
+        log_green "Backup Success!!! at $timestamp"
+        log_green "Delete Backup old old than 5 days."
+        find /var/log/backup_log/ -type f -name "*backup*.log" -mtime +5 -exec rm -rf {} \;
 else
-	log_red "Backup Failed!!! at $timestamp"
-	exit 0
+        log_red "Backup Failed!!! at $timestamp"
+        exit 0
 fi
 
