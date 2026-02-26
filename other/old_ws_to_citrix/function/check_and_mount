@@ -1,0 +1,9 @@
+#!/bin/bash
+
+mount_point=$1
+device_or_share=$2
+mount "$device_or_share" "$mount_point"
+if ! mount | grep -q "$mount_point"; then
+        echo "掛載失敗：$mount_point"
+        exit 1
+fi

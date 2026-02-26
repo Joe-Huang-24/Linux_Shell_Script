@@ -1,0 +1,71 @@
+#!/bin/bash
+
+if [ "$1" == "" ]; then
+	echo -e "\e[1;33mShow Server Basic Information\e[0m"
+	td=$(date +%Y-%m-%d)
+	td_time=$(date +%Y%m%d)-$(date +%T)
+	echo -e "\n============ \e[1;36mStarting to check server information\e[1;33m [$(hostname)]\e[0m at \e[1;36m$(date +%Y/%m/%d)\e[0m ============\n"
+	echo -e "\e[1;32mHostname: \e[1;33m$(hostname)\e[0m"
+	echo -e "\e[1;32mCPU Model name: \e[1;33m$(grep 'model name' /proc/cpuinfo | uniq | awk -F ': ' '{print $2}')\e[0m"
+	echo -e "\e[1;32mCPU Core: \e[1;33m$(grep -m 1 'cpu cores' /proc/cpuinfo | awk -F ': ' '{print $2}')\e[0m"
+	echo -e "\e[1;32mMemory: \e[1;33m$(grep 'MemTotal' /proc/meminfo | awk '{printf "%.2f", $2 / 1048576}') GiB\e[0m"
+	echo -e "\e[1;32mIP Addresses: \e[1;33m$(ifconfig | grep "inet addr" | awk '{print $2}' | cut -d ':' -f 2 | grep -v 127.0.0.1)\e[0m"
+	echo -e "\e[1;32mOS: \e[1;33m$(cat /etc/redhat-release)\e[0m"
+	echo -e "\e[1;32mOS Install Time: \e[1;33m$(rpm -qa basesystem --qf '%{installtime:date}\n')\e[0m"
+	echo -e "\n"
+else
+	case ${1} in
+		"extra")
+			echo -e "============ \e[1;36mShow Server Current Status information\e[0m at \e[1;32m$(date +%Y/%m/%d)\e[0m ============\n"
+			echo -e "\e[1;32mCPU Usage: \e[1;33m$(top -bn1 | grep Cpu | awk '{print $2}')%\e[0m"
+			echo -e "\e[1;32mFree Memory: \e[1;33m$(vmstat -s | grep 'free memory' | awk '{printf "%.2f", $1 / 1048576}') MiB\e[0m\n"
+			echo -e "============ \e[1;36mCheck YPbind Service\e[0m ============\n"
+			echo -e "Service\t\tStatus"
+			if service ypbind status >> /dev/null 2>&1; then
+			echo -e "\e[1;32mYPbind\t\tActive\e[0m"
+			else
+				echo -e "\e[1;32mYPbind\t\t\e[31mDown\e[0m"
+			fi
+			;;
+		"p4linux")
+			echo "Hello World"
+			;;
+	esac
+
+echo -e "============ \e[1;36mShow Server HardDisk Device\e[0m at \e[1;32m$(date +%Y/%m/%d)\e[0m ============\n"
+# df -h | grep -E '^/dev/|^Filesystem'
+
+df -h | awk '
+BEGIN {
+    red="\033[0;31m";
+    reset="\033[0m";
+
+    printf "%-20s %-10s %-10s %-10s %-10s %-20s\n", "Filesystem", "Size", "Used", "Avail", "Use%", "Mounted on";
+}
+NR>1 {
+    used=$5;
+    gsub("%", "", used);
+    if (used > 50) {
+	printf "%-20s %-10s %-10s %-10s %s%-9s%s %-20s\n", $1, $2, $3, $4, red, $5, reset, $6;
+    } else {
+        printf "%-20s %-10s %-10s %-10s %-10s %-20s\n", $1, $2, $3, $4, $5, $6;
+    }
+}'
+
+echo -e "\n"
+
+df -h | grep ^'/dev/' | grep -v "^Filesystem" | while read output; do
+    over_space=50
+    usep=$(echo $output | awk '{ print $5 }' | sed 's/%//g')
+    partition=$(echo $output | awk '{ print $1 }')
+    mountpoint=$(echo $output | awk '{ print $6 }')
+    if [ "$usep" -ge "$over_space" ]; then
+        echo -e "\e[1;31mWarning: The partition \"$partition\" (mounted on \"$mountpoint\") is almost full. Used: $usep%\e[0m"
+    fi
+done
+
+
+echo -e "\n"
+
+unset over_space usep partition td td_time
+

@@ -1,0 +1,40 @@
+#!/bin/bash
+
+# 定義日期變數
+DATE=$(date +%Y-%m-%d)
+
+# 定義效能分析表路徑
+Report_Path="/var/log/Performance_Report/Performance_Report_${DATE}"
+Report_Error_Path="/var/log/Performance_Report/log_${DATE}"
+Logfile="/var/log/messages"
+mkdir -p ${Report_Path}
+mkdir -p ${Report_Error_Path}
+
+Line="============"
+
+# 建立CPU使用報告
+echo -e "\e[1;33m $Line$line Start Checking [$HOSTNAME] CPU at ${DATE} $Line$Line \e[0m" >> $Report_Path/Daily_$DATE.log
+vmstat -S m 1 10 >> $Report_Path/Daily_$DATE.log
+
+# 建立Disk IO 報告
+echo -e "\e[1;33m $Line$line Start Checking [$HOSTNAME] IO at ${DATE} $Line$Line \e[0m" >> $Report_Path/Daily_$DATE.log
+iostat -x 1 10 >> $Report_Path/Daily_$DATE.log
+
+# 建立CPU各核心使用率報告
+echo -e "\e[1;33m $Line$line Start Checking [$HOSTNAME] CPU Core Use at ${DATE} $Line$Line \e[0m" >> $Report_Path/Daily_$DATE.log
+mpstat -P ALL 1 10 >> $Report_Path/Daily_$DATE.log
+
+# 建立網路IO報告
+echo -e "\e[1;33m $Line$line Start Checking [$HOSTNAME] Network IO at ${DATE} $Line$Line \e[0m" >> $Report_Path/Daily_$DATE.log
+sar -n DEV 1 10 >> $Report_Path/Daily_$DATE.log
+
+	############################
+	###    Error Analysis    ###
+	############################
+
+# 擷取錯誤訊息
+echo -e "\e[1;33m $Line$line Start Checking [$HOSTNAME] Error Log Analysis at ${DATE} $Line$Line \e[0m" >> $Report_Error_Path/Daily_Error_Analysis_$DATE.log
+grep -i "error" $Logfile >> $Report_Error_Path/Daily_Error_Analysis_$DATE.log
+
+echo -e "\e[1;33m $Line$line Start Checking [$HOSTNAME] Error Log Summary at ${DATE} $Line$Line \e[0m" >> $Report_Error_Path/Daily_Error_Summary_$DATE.log
+awk '/error/ {print $5}' $Logfile | sort | uniq -c >> $Report_Error_Path/Daily_Error_Summary_$DATE.log

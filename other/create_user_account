@@ -1,0 +1,61 @@
+#!/bin/bash
+
+echo -e "\033[35mSRD ADD New User Account\033[0m"
+echo "#############"
+echo -e "\033[33mPlease type New User Account Name\033[0m"
+read -p "User Account: " nwusr
+
+# Check if the user already exists
+getent passwd "$nwusr" > /dev/null 2>&1
+if [ $? -eq 0 ]; then
+    echo -e "\033[31mUser Account $nwusr already exists\033[0m\n"
+else
+    # Create the new user
+    useradd -g 1000  --no-create-home -s "/bin/csh" $nwusr
+    echo -e "\033[36mUser account $nwusr created successfully.\033[0m\n"
+fi
+getent passwd "$nwusr" > /dev/null 2>&1
+if [ $? -eq 0 ]; then
+        sed -i.$(date +%Y-%m-%d-%H%M) "s|^$nwusr:!!:|$nwusr::|g" /home/joe.huang/_SystemManagement/Script/add_user_test/shadow
+        sed -i.$(date +%Y-%m-%d-%H%M) "/^$nwusr/d" /home/joe.huang/_SystemManagement/Script/add_user_test/group
+        echo -e "\033[31mConfigure /etc/passwd and /etc/shadow Success!!!\033[0m\n"
+else
+        echo
+fi
+
+# read -p "Please type input grp1: " grp1
+# read -p "Please type input grp2: " grp2
+
+# echo -e "\033[34mAppend User to Group!\033[0m\n"
+# if getent group $grp1 >> /dev/null 2>&1 && getent group $grp2 >> /dev/null 2>&1; then
+#         if usermod -aG $grp1 $nwusr; then
+#                 echo -e "\033[33mAppend User to $grp1 Successfully.\033[0m\n"
+#         fi
+#         if usermod -aG $grp2 $nwusr; then
+#                 echo -e "\033[33mAppend User to $grp2 Successfully.\033[0m\n"
+#         fi
+# else
+#         echo "grp1 group is not exists\n"
+# fi
+
+read -p "Please input server type(ex. sr650 type sr): " srvtype
+read -p "Please input server type(ex. sr650 type 650): " srvtype1
+read -p "Please input server type number(ex. sr650-1 type 1): " srvnum
+
+echo -e "\033[35mCreate User home folder.\033[0m\n"
+sed -i.$(date +%Y%m%d) -e "\$a$nwusr        -acl,vers=3,retry=3,nofail,soft,bg,timeo=600 $srvtype$srvtype1-$srvnum:/HD$srvtype1$srvnum/home/$nwusr" /etc/auto.home
+ssh $srvtype$srvtype1-$srvnum "mkdir /HD$srvtype1$srvnum/home/$nwusr"
+
+echo -e "\033[31mmake -C /var/yp\033[0m\n"
+make -C /var/yp
+
+read -p "Please type input chown user name: " usrname
+read -p "Please type input chown group name: " grpname
+
+echo -e "\033[33mSet User home folder Permission.\033[0m\n"
+ssh $srvtype$srvtype1-$srvnum "ls -al /HD$srvtype1$srvnum/home/$usrname && chown -R $usrname:$grpname /HD$srvtype1$srvnum/home/$usrname || echo $usrname is not exists"
+
+echo -e "\033[34mSet User Account Password.\033[0m\n"
+yppassword $usrname
+
+su - $usrname

@@ -1,0 +1,37 @@
+#!/bin/bash
+
+# 定義支援的壓縮格式及對應解壓縮指令
+for file in *; do
+    if [ -f "$file" ]; then
+        case "$file" in
+            *.tar.gz|*.tgz)
+                echo "解壓縮 $file (tar.gz)"
+                mkdir -p "${file%.*.*}" && tar -xvzf "$file" -C "${file%.*.*}"
+                ;;
+            *.tar.bz2|*.tbz2)
+                echo "解壓縮 $file (tar.bz2)"
+                mkdir -p "${file%.*.*}" && tar -xvjf "$file" -C "${file%.*.*}"
+                ;;
+            *.tar.xz)
+                echo "解壓縮 $file (tar.xz)"
+                mkdir -p "${file%.*.*}" && tar -xvJf "$file" -C "${file%.*.*}"
+                ;;
+            *.zip)
+                echo "解壓縮 $file (zip)"
+                mkdir -p "${file%.*}" && unzip -o "$file" -d "${file%.*}"
+                ;;
+            *.7z)
+                echo "解壓縮 $file (7z)"
+                mkdir -p "${file%.*}" && 7z x "$file" -o"${file%.*}"
+                ;;
+            *.rar)
+                echo "解壓縮 $file (rar)"
+                mkdir -p "${file%.*}" && unrar x "$file" "${file%.*}/"
+                ;;
+            *)
+                echo "未支援的壓縮格式: $file"
+                ;;
+        esac
+    fi
+done
+

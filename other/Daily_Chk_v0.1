@@ -1,0 +1,12 @@
+#!/bin/bash
+
+backup_path="/var/log/backup_log"
+backup_file="backup_old-ws_qnap.log"
+
+if [ -f "$backup_path/$(date +%Y-%m-%d)_$backup_file" ]; then
+    tail "$backup_path/$(date +%Y-%m-%d)_$backup_file"
+elif [ -f "$backup_path/$(date -d "yesterday" +%Y-%m-%d)_$backup_file" ]; then
+    tail "$backup_path/$(date -d "yesterday" +%Y-%m-%d)_$backup_file"
+else
+    tail "$backup_path/$(date -d "last Friday" +%Y-%m-%d)_$backup_file"
+fi

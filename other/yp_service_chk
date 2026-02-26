@@ -1,0 +1,20 @@
+#!/bin/bash
+
+clear && printf '\033[3J'
+
+srv=$(cat /root/ho_row)
+
+for i in ${srv}; do
+	ssh root@$i "/sbin/service httpd status" > /dev/null 2>&1
+	if [ $? -ne 0 ]; then
+		echo "$(date +%Y-%m-%d)_$(date +%T): $i httpd service is stop"
+		ssh root@$i "ls /etc/hosts"
+		if [ $? -eq 0 ]; then
+			echo "$(date +%Y-%m-%d)_$(date +%T): $i httpd service restart successfully"
+		else
+			echo "$(date +%Y-%m-%d)_$(date +%T): $i httpd service restart failed"
+		fi
+	else
+		echo "$(date +%Y-%m-%d)_$(date +%T): $i httpd service is running"
+	fi	
+done

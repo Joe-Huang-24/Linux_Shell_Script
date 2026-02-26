@@ -1,0 +1,33 @@
+#!/bin/bash
+
+# Get the mount point name
+hd_name=$(cat /proc/mounts | awk -F ' ' '$3 != nfs {print $2}' | grep -i "/HD")
+
+# Get the list of users in the Home directory
+usr_home_list=$(ls -l $hd_name/home 2>/dev/null | awk -F ' ' '{print $9}')
+
+# Ensure the Home directory exists
+if [ -d "$hd_name/home" ]; then
+    # Prompt the user to enter a size limit (e.g., 1G, 500M)
+    read -p "Please enter the size limit for Home Folder (e.g., 1G, 500M): " size_limit
+
+    echo -e "\nChecking Home Folder usage...\n"
+
+    # Iterate through each user directory
+    for i in ${usr_home_list[@]}; do
+        # Calculate directory size
+        folder_size=$(du -sh "$hd_name/home/$i" 2>/dev/null | awk '{print $1}')
+        folder_size_bytes=$(du -sb "$hd_name/home/$i" 2>/dev/null | awk '{print $1}')
+        limit_bytes=$(numfmt --from=iec "$size_limit")
+
+        echo -e "Checking: $i Home Folder usage: \e[34m$folder_size\e[0m"
+
+        # Check if it exceeds the limit
+        if [ "$folder_size_bytes" -gt "$limit_bytes" ]; then
+            echo -e "\e[31mWarning: $i's Home Folder exceeds the limit ($size_limit)!\e[0m"
+        fi
+    done
+else
+    echo -e "\e[31mCannot access $hd_name/home\e[0m"
+fi
+

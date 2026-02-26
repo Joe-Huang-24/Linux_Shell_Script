@@ -1,0 +1,11 @@
+#!/bin/bash
+
+yp_usr=`ypcat passwd | awk -F ':' '$3 >= 1000 {print $1}'`
+
+echo "==============="
+echo "Time $(date +%m-%d_%T)"
+
+for h in ${yp_usr[@]}; do
+	#ps aux | grep -i $h | awk '$1 != "root" {for (i=11; i<=NF; i++) printf "%s%s", $i, (i==NF ? "\n" : " ")}'
+	ps aux | grep -i $h | awk '$1 != "root" {printf "%s ", $1; for (i=11; i<=NF; i++) printf "%s%s", $i, (i==NF ? "\n" : " ")}'
+done

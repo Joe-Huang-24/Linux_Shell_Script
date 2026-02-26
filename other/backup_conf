@@ -1,0 +1,20 @@
+#!/bin/bash
+#mount 172.16.11.7:/volume1/Backup /snas3
+#sleep 10m
+rsync -avR /etc/hosts /backup/for_202406/.
+rsync -avR /etc/group /backup/for_202406/.
+rsync -avR /etc/passwd /backup/for_202406/.
+rsync -avR /etc/shadow /backup/for_202406/.
+rsync -avR /etc/auto.master /backup/for_202406/.
+rsync -avR /etc/auto.direct /backup/for_202406/.
+rsync -avR /etc/auto.home /backup/for_202406/.
+rsync -avR /etc/netgroup /backup/for_202406/.
+rsync -avR /etc/ypserv.conf /backup/for_202406/.
+rsync -avR /etc/yp.conf /backup/for_202406/.
+rsync -avR /etc/sysconfig/network /backup/for_202406/.
+rsync -avR /etc/rc.d/rc.local /backup/for_202406/.
+#find /var/log/backup_log/ -type f -name "*.log" -mtime +7 -exec rm -rf {} \;
+#sleep 10m
+#umount -l /snas3
+echo "Backup Finish!!"
+

@@ -1,0 +1,19 @@
+#!/bin/bash
+
+home_list=`ls -l * | awk '{print $9}'`
+
+
+if cat /proc/mounts | grep /snas2 ; then
+	for i in ${home_list[@]}; do
+		if [ -d /snas2/Old_home ]; then
+			echo "Start Sync /snas2/Old_home/$i to /snas2/Old_home" >> /backup_sh/old_ws_to_citrix/log/sync_old_data.log 2>&1
+			rsync -avH /snas2/Old_home/home/$i /mnt/sdc1 >> /backup_sh/old_ws_to_citrix/log/sync_old_data.log 2>&1
+		else
+			exit 1
+		fi
+	done
+else
+	exit 1
+fi
+
+# umount -l /mnt/sdc1

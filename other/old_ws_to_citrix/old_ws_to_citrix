@@ -1,0 +1,15 @@
+#!/bin/bash
+
+case "${1}" in
+    "sync_old_ws")
+	echo -e "\e[1;33mLoading Function Check and Mount\e[0m"
+	/backup_sh/old_ws_to_citrix/function/check_and_mount /mnt/sdc1 /dev/sdc1
+	echo "開始處理 Sync david file 任務..."
+	/backup_sh/old_ws_to_citrix/script/sync_old_ws
+        ;;
+    *)
+        echo "用法：$0 {Logic2|Logic3}"
+        exit 1
+        ;;
+esac
+

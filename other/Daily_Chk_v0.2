@@ -1,0 +1,43 @@
+#!/bin/bash
+
+YELLOW="\e[1;33m"
+CYAN="\e[1;36m"
+GREEN="\e[1;32m"
+RESET="\e[0m"
+
+echo -e "${YELLOW}Show Server Basic Information${RESET}"
+echo -e "\n============ ${CYAN}Starting to check server information${YELLOW} [$(hostname)]${RESET} at ${CYAN}$(date +%Y/%m/%d)${RESET} ============\n"
+
+show_info() {
+    echo -e "${GREEN}$1: ${YELLOW}$2${RESET}"
+}
+
+show_info "Hostname" "$(hostname)"
+show_info "CPU Model" "$(awk -F ': ' '/model name/{print $2; exit}' /proc/cpuinfo)"
+show_info "CPU Cores" "$(nproc)"
+show_info "Memory" "$(awk '/MemTotal/ {printf "%.2f GiB", $2 / 1048576}' /proc/meminfo)"
+show_info "IP Addresses" "$(hostname -I)"
+show_info "OS" "$(cat /etc/redhat-release)"
+show_info "OS Install Time" "$(rpm -qa basesystem --qf '%{installtime:date}\n')"
+show_info "Citrix Release" "2203"
+show_info "Server UP Time" "$(uptime)"
+show_info "System Boot Time" "$(who -b)"
+echo -e "\n\n"
+
+show_info "Checking Daily Backup Job" "$(hostname)"
+echo
+backup_path="/var/log/backup_log"
+backup_file="backup_old-ws_qnap.log"
+
+for date_option in "today" "yesterday" "last Friday"; do
+    log_file="$backup_path/$(date -d "$date_option" +%Y-%m-%d)_$backup_file"
+    if [ -f "$log_file" ]; then
+        tail "$log_file"
+	echo -e "\e[32mBackup check completed successfully.\e[0m"
+        exit 0
+    else
+	echo -e "\e[31mBackup check Fail at $(date -d "$date_option" +%Y-%m-%d).\e[0m"
+    fi
+done
+
+

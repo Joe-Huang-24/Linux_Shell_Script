@@ -1,0 +1,83 @@
+192.168.1.64    p4linux.rdc.com.tw      p4linux         p4linux         ## james
+192.168.1.1    yps
+192.168.1.10	qnapnas
+192.168.1.11	snas4
+192.168.1.100   rich-lnx                ## James
+192.168.1.103   jerry-lnx               ## James
+192.168.1.104   nissan-lnx              ## James
+192.168.1.105   jason-lnx               ## James
+192.168.1.106   benson-lnx              ## James
+192.168.1.110   xeon2-lnx               ## James
+#192.168.1.111   x4100-lnx               ## James
+#192.168.1.112   debby-lnx               ## James
+192.168.1.113   tendollar-lnx           ## James
+192.168.1.114   albert-lnx              ## James
+192.168.1.115   eric-lnx                ## James
+192.168.1.116   henry-lnx               ## James
+192.168.1.118   jim-lnx                 ## James
+192.168.1.119   rich1-lnx               ## James
+#192.168.1.120   ibm-lnx                 ####dead
+192.168.1.121   rdc121                  ## SamLin
+#192.168.1.123   ctd2-lnx                ## James dead
+192.168.1.126   rdc126                  ## SamLin
+#192.168.1.127   r520-lnx                ## James
+192.168.1.128   rdc128                  ## SamLin
+192.168.1.129   rdc129                  ## SamLin
+192.168.1.130   rdc130                  ## SamLin
+#192.168.1.131   rdc131                  ####dead
+#192.168.1.132   r520t-lnx               ## James
+192.168.1.133   rdc133                  ## SamLin
+192.168.1.135   joseph-lnx              ## SamLin
+#192.168.1.136   rdc136                  ## SamLin
+#192.168.1.137   rdc137                  ## SamLin
+#192.168.1.139   rdc139                  ## SamLin
+192.168.1.140   rdc140                  ## SamLin
+192.168.1.141   rdc141                  ## SamLin
+192.168.1.142   rdc142                  
+#192.168.1.143   rdc143                  
+#192.168.1.144   rdc144                  
+192.168.1.145   rdc145                  
+#192.168.1.146   rdc146                  ## SamLin
+#192.168.1.147   rdc147                  
+192.168.1.150	solaris10                ##vm
+192.168.1.151	bm1ad-1
+192.168.1.2    yps2
+#192.168.1.224  rdc-gw
+#192.168.1.20    jonse-ws               ####dead
+192.168.1.28    rdc28                   ##SamLin
+#192.168.1.200   vls  # VC ##change new vspherhere to 192.168.202
+192.168.1.202   vls  # VC
+192.168.1.216   vls16
+192.168.1.229   vls29 # N/A
+192.168.1.240   vls40 # win2008-vc (VM on 192.168.1.200)
+192.168.1.244   aikman-lnx # for aikman use
+192.168.1.9	snas2
+192.168.1.91    jimmy-lnx               ## James
+192.168.1.92    sean-lnx                ## James
+192.168.1.93    ben-lnx                 ## James
+#192.168.1.94    claud-lnx               ## James 20191124 /dev/sda1 bad
+192.168.1.95    ctd3-lnx                ## SamLin
+192.168.1.96    amd8-lnx                ## James
+192.168.1.97    cad-lnx                 ## James
+192.168.1.99    march-lnx               ## James
+192.168.1.10	qnapnas
+192.168.1.100   rich-lnx                ## James
+192.168.1.103   jerry-lnx               ## James
+192.168.1.104   nissan-lnx              ## James
+192.168.1.105   jason-lnx               ## James
+192.168.1.106   benson-lnx              ## James
+192.168.1.50    blade
+192.168.1.69    rdc69                   ## SamLin
+192.168.1.71    rdc71                   ## SamLin 
+192.168.1.77    rdc77                   ## SamLin
+192.168.1.81    rdc81                   ## SamLin
+192.168.1.88    spiker-lnx              ## James
+192.168.1.93    ben-lnx                 ## James
+192.168.1.95    ctd3-lnx                ## SamLin
+192.168.1.96    amd8-lnx                ## James
+192.168.1.114   albert-lnx              ## James
+192.168.1.142   rdc142                  
+192.168.1.145   rdc145                  
+192.168.1.202   vls  # VC
+192.168.1.216   vls16
+192.168.1.244   aikman-lnx # for aikman use

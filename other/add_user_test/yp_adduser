@@ -1,0 +1,24 @@
+#!/bin/bash
+
+echo -e "\033[35mSRD ADD New User Account\033[0m"
+echo "#############"
+echo -e "\033[33mPlease type New User Account Name\033[0m"
+read -p "User Account: " nwusr
+
+# Check if the user already exists
+getent passwd "$nwusr" > /dev/null 2>&1
+if [ $? -eq 0 ]; then
+    echo -e "\033[31mUser Account $nwusr already exists\033[0m\n"
+else
+    # Create the new user
+    useradd -g "1000" -s "/bin/csh" $nwusr
+    echo -e "\033[36mUser account $nwusr created successfully.\033[0m\n"
+fi
+getent passwd "$nwusr" > /dev/null 2>&1
+if [ $? -eq 0 ]; then
+        sed -i.$(date +%Y-%m-%d-%H%M) "s|^$nwusr:!!:|$nwusr::|g" /home/joe.huang/_SystemManagement/Script/add_user_test/shadow
+#       sed -i.$(date +%Y-%m-%d-%H%M) "/^$nwusr/d" /home/joe.huang/_SystemManagement/Script/add_user_test/group
+        echo -e "\033[31mConfigure /etc/passwd and /etc/shadow Success!!!\033[0m\n"
+else
+        echo
+fi

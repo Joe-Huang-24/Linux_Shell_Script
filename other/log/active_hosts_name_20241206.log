@@ -1,0 +1,32 @@
+192.168.1.64    p4linux.rdc.com.tw      p4linux         p4linux         ## james
+192.168.1.9	snas2
+192.168.1.91    jimmy-lnx               ## James
+192.168.1.92    sean-lnx                ## James
+192.168.1.93    ben-lnx                 ## James
+#192.168.1.94    claud-lnx               ## James 20191124 /dev/sda1 bad
+192.168.1.95    ctd3-lnx                ## SamLin
+192.168.1.96    amd8-lnx                ## James
+192.168.1.97    cad-lnx                 ## James
+192.168.1.99    march-lnx               ## James
+192.168.1.10	qnapnas
+192.168.1.100   rich-lnx                ## James
+192.168.1.103   jerry-lnx               ## James
+192.168.1.104   nissan-lnx              ## James
+192.168.1.105   jason-lnx               ## James
+192.168.1.106   benson-lnx              ## James
+192.168.1.50    blade
+192.168.1.71    rdc71                   ## SamLin 
+192.168.1.77    rdc77                   ## SamLin
+192.168.1.81    rdc81                   ## SamLin
+192.168.1.87    sun20-lnx               ## James
+192.168.1.88    spiker-lnx              ## James
+192.168.1.95    ctd3-lnx                ## SamLin
+192.168.1.96    amd8-lnx                ## James
+192.168.1.106   benson-lnx              ## James
+192.168.1.114   albert-lnx              ## James
+192.168.1.133   rdc133                  ## SamLin
+192.168.1.142   rdc142                  
+192.168.1.145   rdc145                  
+192.168.1.202   vls  # VC
+192.168.1.216   vls16
+192.168.1.244   aikman-lnx # for aikman use

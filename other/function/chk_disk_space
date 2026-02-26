@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Over Space Alarm Value
+Over_Space=70
+
+df -h | grep '^/dev/' | while read output;
+do
+	usep=$(echo $output | awk '{ print $5 }' | sed 's/%//g')
+	partition=$(echo $output | awk '{ print $1 }')
+	if [ $usep -ge $Over_Space ]; then
+		echo "Warning: The partition \"$partition\" is almost full. Used:$usep%"
+	fi
+done

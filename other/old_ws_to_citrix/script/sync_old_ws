@@ -1,0 +1,15 @@
+#!/bin/bash
+
+old_ws_list=`ls -l /snas2 | grep -v 'recycle' | awk '{print $9}'`
+
+
+for i in ${old_ws_list[@]}; do
+	if cat /proc/mounts | grep /snas222; then
+		echo "Start Sync $i to /snas222" >> /backup_sh/old_ws_to_citrix/log/sync_old_ws.log 2>&1
+		rsync -avrH --exclude-from='/backup_sh/old_ws_to_citrix/exclude.list' /snas2/$i /snas222 >> /backup_sh/old_ws_to_citrix/log/sync_old_ws.log 2>&1
+#		rsync -avH $i /mnt/sdc1/temp/alexliu >> /backup_sh/old_ws_to_citrix/log/sync_old_data.log 2>&1
+	else
+		mkdir -p /mnt/sdc1/temp/alexliu
+	fi
+done
+# umount -l /mnt/sdc1

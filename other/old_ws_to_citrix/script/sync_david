@@ -1,0 +1,22 @@
+#!/bin/bash
+
+david_list=`cat /backup_sh/old_ws_to_citrix/List/david_List`
+
+
+if cat /proc/mounts | grep /snas2 ; then
+#	echo -e "\e[33mStart Sync /snas2/old_ws_Backup/home/benpan to /mnt/sdc1\e[0m"
+#	rsync -avH /snas2/old_ws_Backup/home/benpan /mnt/sdc1/.
+#	echo -e "\e[33mSync /snas2/old_ws_Backup/home/benpan to /mnt/sdc1 Finished\e[0m"
+	for i in ${david_list[@]}; do
+		if [ -d /snas2/Old_home ]; then
+			echo "Start Sync $i to /snas2/Old_home" >> /backup_sh/old_ws_to_citrix/log/sync_old_data.log 2>&1
+			rsync -avH $i /snas2/Old_home/home/ADD >> /backup_sh/old_ws_to_citrix/log/sync_old_data.log 2>&1
+		else
+			exit 1
+		fi
+	done
+else
+	exit 1
+fi
+
+# umount -l /mnt/sdc1

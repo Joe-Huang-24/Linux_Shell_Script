@@ -1,0 +1,36 @@
+#!/bin/bash
+
+count=0
+total=$(ls -1 *.crypt *.nc 2>/dev/null | wc -l)
+
+
+
+for i in * ; do
+	case $i in
+		*.crypt|*.nc)
+			nText=crypt
+			nnText=nc
+			if [ ! -e "$i" ]; then
+				echo "沒有符合條件的文件 (*.crypt 或 *.nc)"
+				break
+			else
+
+				count=$((count + 1))
+				echo "正在處理第 $count/$total 個文件: $file"
+				ls -ld $file
+				fh=${i%.$nText}
+				newf=$fn.$nnText
+				if [ -f *.*.nc ]; then
+					echo "exit"
+				else
+					mv -f $i ${i%.$nText}.$nnText
+					mcrypt -V -d -a enigma --no-openpgp --keymode scrypt -k id0ntknow --bare ${i%.$nText}.$nnText
+					rm -fr ${i%.$nText}.$nnText
+				fi
+#			/home/joe.huang/_SystemManagement/Script/old_ws_to_citrix/function/unpack_all_v0.2 > /dev/null 2>&1
+			fi
+			;;
+	esac
+done
+
+

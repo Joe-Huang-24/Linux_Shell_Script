@@ -1,0 +1,50 @@
+#!/bin/bash
+
+# 定義支援的壓縮格式及對應解壓縮指令
+for file in *; do
+    if [ -f "$file" ]; then
+        case "$file" in
+            *.tar.gz|*.tgz)
+                target_dir="${file%.*.*}"
+                if [ -d "$target_dir" ]; then
+                    echo "已解壓縮過: $file，跳過處理"
+                else
+                    echo "解壓縮 $file (tar.gz)"
+                    mkdir -p "$target_dir" && tar -xvzf "$file" -C "$target_dir"
+                fi
+                ;;
+            *.tar.bz2|*.tbz2)
+                target_dir="${file%.*.*}"
+                if [ -d "$target_dir" ]; then
+                    echo "已解壓縮過: $file，跳過處理"
+                else
+                    echo "解壓縮 $file (tar.bz2)"
+                    mkdir -p "$target_dir" && tar -xvjf "$file" -C "$target_dir"
+                fi
+                ;;
+            *.tar.xz)
+                target_dir="${file%.*.*}"
+                if [ -d "$target_dir" ]; then
+                    echo "已解壓縮過: $file，跳過處理"
+                else
+                    echo "解壓縮 $file (tar.xz)"
+                    mkdir -p "$target_dir" && tar -xvJf "$file" -C "$target_dir"
+                fi
+                ;;
+            *.tar)
+                target_dir="${file%.*}"
+                if [ -d "$target_dir" ]; then
+                    echo "已解壓縮過: $file，跳過處理"
+                else
+                    echo "解壓縮 $file (tar)"
+                    mkdir -p "$target_dir" && tar -xvf "$file" -C "$target_dir"
+                fi
+                ;;
+
+            *)
+                echo "未支援的壓縮格式: $file"
+                ;;
+        esac
+    fi
+done
+
