@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# Get User
+pro_user=`ps aux | awk '{print $1}' | grep -i 'A9812\|DPU' | sort --uniq`
+
+for i in ${pro_user[@]}; do
+	if ls -ld /home/$i > /dev/null 2>&1; then
+		killall -u $i
+		umount -f /home/$i
+	else
+		echo "BBBBB"
+	fi
+	killall -u $i
+	killall -u $i
+	killall -u $i		
+done
+
+mount_home=`df -h | grep '/home' | awk '{print $6}'`
+
+for h in ${mount_home[@]}; do
+	umount -f $h
+done

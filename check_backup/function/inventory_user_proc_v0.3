@@ -1,0 +1,64 @@
+#!/bin/bash
+
+# ------------------------ 設定參數 ------------------------
+CPU_THRESHOLD=60.0
+MEM_THRESHOLD=60.0
+LOG_FILE="/mis_daily_check/log/inventory_user_home/user_resource_usage.log"
+# --------------------------------------------------------
+
+# 檢查 log 資料夾是否存在
+mkdir -p "$(dirname "$LOG_FILE")"
+
+# 總 CPU 核心數與理論最大使用率
+TOTAL_CPU_CORES=$(nproc)
+TOTAL_CPU=$(echo "$TOTAL_CPU_CORES * 100" | bc)
+
+# 總記憶體（MB）
+TOTAL_MEM=$(free -m | awk '/Mem:/ {print $2}')
+
+# 清空 log 並寫入時間標頭
+echo "==== $(date '+%Y-%m-%d %H:%M:%S') ====" > "$LOG_FILE"
+
+# 取得所有 NIS 使用者（UID ≥ 1000 且非 root）
+nis_users=$(ypcat passwd | awk -F ':' '$1 != "root" && $3 >= 1000 {print $1}' | sort)
+
+for user in $nis_users; do
+    # 只處理目前登入中的使用者
+    if w | grep -qw "$user"; then
+
+        # 取得該使用者所有行程的資源使用
+        usage=$(ps -u "$user" -o %cpu,%mem,rss --no-headers | \
+            awk '{cpu+=$1; mem+=$2; rss+=$3} END {printf "%.2f %.2f %.0f", cpu, mem, rss}')
+
+        cpu_use=$(echo $usage | awk '{print $1}')
+        mem_use=$(echo $usage | awk '{print $2}')
+        rss_use=$(echo $usage | awk '{print $3}')  # KB
+
+        if [[ -z "$cpu_use" || -z "$mem_use" ]]; then
+            continue
+        fi
+
+        # 換算佔比
+        mem_used_mb=$(echo "$rss_use / 1024" | bc)
+        cpu_percent_of_total=$(echo "scale=2; $cpu_use / $TOTAL_CPU * 100" | bc)
+        mem_percent_of_total=$(echo "scale=2; $mem_used_mb / $TOTAL_MEM * 100" | bc)
+
+        # 狀態提示
+        status=""
+        if (( $(echo "$cpu_use >= $CPU_THRESHOLD" | bc -l) )); then
+            status="HIGH CPU"
+        fi
+        if (( $(echo "$mem_use >= $MEM_THRESHOLD" | bc -l) )); then
+            if [[ "$status" == "HIGH CPU" ]]; then
+                status="HIGH CPU+MEM"
+            else
+                status="HIGH MEM"
+            fi
+        fi
+
+        # 輸出格式
+        printf "User: %-12s | CPU: %6.2f%% (%5.2f%% of total) | MEM: %6.2f%% (%5.2f%% of %dMB) %s\n" \
+            "$user" "$cpu_use" "$cpu_percent_of_total" "$mem_use" "$mem_percent_of_total" "$TOTAL_MEM" "$status" | tee -a "$LOG_FILE"
+    fi
+done
+

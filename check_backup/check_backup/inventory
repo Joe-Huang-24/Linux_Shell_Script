@@ -1,0 +1,62 @@
+[centos74]
+sr650-7
+p920-1
+school-1
+
+[centos79]
+sr650-2
+sr650-4
+sr665-1
+rdc86
+x299a-1
+
+[centos84]
+r710-1
+rdc143
+rdc82
+tr5975wx-1
+tr5975wx-2
+tr5975wx-3
+
+[centos85]
+r720-1
+
+[centos61]
+sr650-3 ansible_python_interpreter=/opt/rh/python27/root/usr/bin/python
+sr650-5 ansible_python_interpreter=/opt/rh/python27/root/usr/bin/python
+sr650-6 ansible_python_interpreter=/opt/rh/python27/root/usr/bin/python
+p920-2 ansible_python_interpreter=/opt/rh/python27/root/usr/bin/python
+p920-3 ansible_python_interpreter=/opt/rh/python27/root/usr/bin/python
+
+
+[redhat84]
+sr665-2
+rdc85
+tr7975wx-1
+tr7975wx-2
+
+[Product_61]
+sr650-3 ansible_python_interpreter=/opt/rh/python27/root/usr/bin/python
+sr650-5 ansible_python_interpreter=/opt/rh/python27/root/usr/bin/python
+sr650-6 ansible_python_interpreter=/opt/rh/python27/root/usr/bin/python
+p920-2 ansible_python_interpreter=/opt/rh/python27/root/usr/bin/python
+p920-3 ansible_python_interpreter=/opt/rh/python27/root/usr/bin/python
+
+[Proudct_7_8]
+sr650-1
+sr650-7
+p920-1
+sr650-2
+sr650-4
+sr665-1
+sr665-2
+
+[Product]
+sr650-1
+sr650-2
+sr650-3 ansible_python_interpreter=/opt/rh/python27/root/usr/bin/python
+sr650-4
+sr650-5 ansible_python_interpreter=/opt/rh/python27/root/usr/bin/python
+sr650-6 ansible_python_interpreter=/opt/rh/python27/root/usr/bin/python
+sr665-1
+p920-1

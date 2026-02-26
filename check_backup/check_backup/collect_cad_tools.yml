@@ -1,0 +1,76 @@
+---
+- name: test
+  hosts: centos74, centos79
+  gather_facts: yes
+
+  tasks:
+          - name: Ensure target log directory exists
+            file:
+                    path: /mis_daily_check/py/py_log/
+                    state: directory
+                    mode: '0750'
+
+          - name: test-1
+            shell: |
+                   echo "=== {{ inventory_hostname }} @ $(date '+%Y-%m-%d %H:%M:%S') ===" > /mis_daily_check/py/py_log/{{ ansible_hostname }}.log
+                   {{ python_bin | default('python') }} /mis_daily_check/py/list_user_process/core/test1.py >> /mis_daily_check/py/py_log/{{ ansible_hostname }}.log
+
+          - name: Fetch per-host log to control node
+            fetch:
+                    src: /mis_daily_check/py/py_log/{{ ansible_hostname }}.log
+                    dest: /mis_daily_check/py/py_log/
+                    flat: yes
+
+- name: test2
+  hosts: centos84, centos85, redhat84, localhost
+  gather_facts: yes
+
+  tasks:
+          - name: Ensure target log directory exists
+            file:
+                    path: /mis_daily_check/py/py_log/
+                    state: directory
+                    mode: '0750'
+
+          - name: test-2
+            shell: |
+                   echo "=== {{ inventory_hostname }} @ $(date '+%Y-%m-%d %H:%M:%S') ===" > /mis_daily_check/py/py_log/{{ ansible_hostname }}.log
+                   #                   /mis_daily_check/py/list_user_process/list_user_run_cad_tools >> /mis_daily_check/py/{{ ansible_hostname }}.log
+                   python3 /mis_daily_check/py/list_user_process/core/test1.py >> /mis_daily_check/py/py_log/{{ ansible_hostname }}.log
+
+          - name: Fetch per-host log to control node
+            fetch:
+                    src: /mis_daily_check/py/py_log/{{ ansible_hostname }}.log
+                    dest: /mis_daily_check/py/py_log/
+                    flat: yes
+
+- name: test3
+  hosts: centos61
+  gather_facts: yes
+
+  tasks:
+          - name: Ensure target log directory exists
+            file:
+                    path: /mis_daily_check/py/py_log/
+                    state: directory
+                    mode: '0750'
+
+          - name: test-3
+            shell: |
+                   echo "=== {{ inventory_hostname }} @ $(date '+%Y-%m-%d %H:%M:%S') ===" > /mis_daily_check/py/py_log/{{ ansible_hostname }}.log
+                   {{ python_bin | default('python') }} /mis_daily_check/py/list_user_process/core/test26.py >> /mis_daily_check/py/py_log/{{ ansible_hostname }}.log
+
+          - name: Fetch per-host log to control node
+            fetch:
+                    src: /mis_daily_check/py/py_log/{{ ansible_hostname }}.log
+                    dest: /mis_daily_check/py/py_log/
+                    flat: yes
+
+
+- name: Combine all host logs
+  hosts: sr665-1
+  tasks:
+          - name: Concatenate logs
+            shell: |
+                    cat /mis_daily_check/py/py_log/*.log | grep -v '===' | sort > /mis_daily_check/py/py_log/tmp_test.log && \
+                    mv /mis_daily_check/py/py_log/tmp_test.log /mis_daily_check/py/py_log/test.log

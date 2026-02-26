@@ -1,0 +1,13 @@
+---
+- name: test
+  hosts: all, localhost
+  tasks:
+          - name: Show current host name
+            debug:
+                    msg: "Inventory name: {{ inventory_hostname }}, Real hostname: {{ ansible_hostname }}"
+
+- name: Tasks show backup log file
+  hosts: all
+  tasks:
+          - name: show backuk log
+            shell: python /mis_daily_check/py/check_backup.py

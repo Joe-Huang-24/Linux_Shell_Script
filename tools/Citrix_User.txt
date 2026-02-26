@@ -1,0 +1,104 @@
+A9812-00=Claud.Lai(賴胤凱-157)
+A9812-01        martin
+A9812-02        abaw
+A9812-03        nissan
+A9812-04        clwu
+A9812-05        felixyu
+A9812-06        joting
+A9812-07=Tendollar.Shi(石博元-197)
+A9812-08=Ben.Pan(潘建銘-181)
+A9812-09=C.T.Cheng(鄭鈞澤-148)
+A9812-10=Cindy.Huang(黃杏怡-107)
+A9812-11=Kelly.Lin(林汶津-811)
+A9812-12=Chienzhi.Chen(陳建志-228)
+A9812-13=CC.Tseng(曾仲卿-130)
+A9812-14        allenlin
+A9812-15=Edward.Li(黎俊彥-185)
+A9812-16=Candy.Chen(陳雅婷-147)
+A9812-17=Poshiang.Huang(黃柏翔-215)
+A9812-18        jimmy
+A9812-19        wayne
+A9812-20        jerrychou
+A9812-21        johnnytseng
+A9812-22        joyce
+A9812-23        RudyChen
+A9812-24        Arthur.Hsu
+A9812-25=Zanyo.Yi(易書瑋-159)
+A9812-26        Joe.Chou
+A9812-27        Kenny.Huang
+A9812-28=Jimmy.Hsieh(謝侑村-182)
+A9812-29        CJ.Liang
+A9812-30        Jayne.Chen
+A9812-31=Kase.Chao(趙冠傑-165)
+A9812-32=Kelvin.Chuang(莊敦凱-193)
+A9812-33=Steven.Yang(楊志穎-194)
+A9812-34=Nick.Wu(吳誌軒-156)
+A9812-35        Nicole.Tseng
+A9812-36        Vic.Hsu
+A9812-37=Amos.Huang(黃宇任-155)
+A9812-38        Peter.Lee
+A9812-39=Lyz.Lin(林揚智-138)
+A9812-40=Pofang.Kan(甘博方-133)
+A9812-41        Edward.Lin
+A9812-42=Jay.Hsu(徐子杰-202)
+A9812-43        Neva.Tsai
+A9812-44=Jim.Hsu(許晉綸-234)
+A9812-45=Eddie.Lai(賴家甫-189)
+A9812-46=Nick.Huang(黃昜毅-230)
+A9812-47=Selmotivat.Yen(嚴文駿-205)
+A9812-48=Chris.Wang(王序文-260)
+A9812-49=Sora.Huang(黃郁洺-179)
+A9812-50=Oscar.Ou(歐曜源-190)
+A9812-51=Kenny.Hsiao (蕭子誼-206)
+A9812-52=Ray.Lin(林芮慶-232)
+A9812-53=Avery.Cheng(程琳雅-178)
+A9812-54=Terry.Fan(范綱岳-235)
+A9812-55
+A9812-56
+A9812-57=Cody.Chang(張宸毓-126)
+A9812-58
+A9812-59=Vick.Lin(林澈-114)
+A9812-60=Perrie.Hsu(徐沛荺-140)
+A9812-61=Casey.Chen(陳怡心-176)
+A9812-62=Sophia Tsai (蔡沐雲-231)
+A9812-63=Nicole.Tseng(曾奕瑄-115)
+A9812-64=Cody.Hsu(許致瑋-195)
+A9812-65=ChuangHsuan.Chueh(闕壯軒-142)
+A9812-71=Ian.Peng(彭苡恩-216)
+A9812-72=Tim.Wu(吳東燁-162)
+A9812-73=Bennie.Tseng(曾柏諺-184)
+A9812-74=Tony.Lian(連穎東-226)
+A9812-75=Jamie.Hsu(許哲偉-127)
+
+
+
+DPU-01  Stam.Chuang
+DPU-02=shiungyu(尤信雄-258)
+DPU-03  Jackie
+DPU-04=Jeff.Tsai(蔡曜安-149)
+DPU-05  Caleb.Su
+DPU-06  Titus.Lai
+DPU-07
+DPU-08
+DPU-09
+DPU-10
+
+OoO-04=Jeff.Tsai(蔡曜安-149)
+OoO-07=Tendollar.Shi(石博元-197)
+OoO-08=Ben.Pan(潘建銘-181)
+OoO-15=Edward.Li(黎俊彥-185)
+OoO-16=Candy.Chen(陳雅婷-147)
+OoO-17=Poshiang.Huang(黃柏翔-215)
+OoO-31=Kase.Chao(趙冠傑-165)
+OoO-32=Kelvin.Chuang(莊敦凱-193)
+OoO-33=Steven.Yang(楊志穎-194)
+OoO-34=Nick.Wu(吳誌軒-156)
+OoO-42=Jay.Hsu(徐子杰-202)
+OoO-44=Jim.Hsu(許晉綸-234)
+OoO-45=Eddie.Lai(賴家甫-189)
+OoO-46=Nick.Huang(黃昜毅-230)
+OoO-48=Chris.Wang(王序文-260)
+OoO-49=Sora.Huang(黃郁洺-179)
+OoO-52=Ray.Lin(林芮慶-232)
+OoO-53=Avery.Cheng(程琳雅-178)
+

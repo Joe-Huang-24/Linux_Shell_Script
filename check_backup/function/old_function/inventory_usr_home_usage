@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#usr_home_list=$(ls -l /HD6505/home | awk -F ' ' '{print $9}')
+hd_name=$(cat /proc/mounts | awk -F ' ' '$3 != nfs {print $2}' | grep -i "/HD")
+usr_home_list=`ls -l $hd_name/home | awk -F ' ' '{print $9}'`
+log_file="/mis_daily_check/log/inventory_user_home"
+
+if [ -d $hd_name/home ];then
+	{
+	for i in ${usr_home_list[@]};do
+		echo "正在盤點:$i home folder使用大小"
+		echo -e "\e[1;34m`du -sh $hd_name/home/$i`\e[0m" # >> $log_file/$(hostname)_$(date +%Y-%m-%d)_inventory_user_home.log
+	done
+	} >> $log_file/$(hostname)_$(date +%Y-%m-%d)_inventory_user_home.log
+else
+	echo -e "\e[1;31mCould not access $hd_name/home\e[0m" >> $log_file/$(hostname)_$(date +%Y-%m-%d)_inventory_user_home.log
+fi

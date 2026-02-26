@@ -1,0 +1,25 @@
+#!/bin/bash
+
+nis_user=`ypcat passwd | awk -F ':' '$1 != "root" && $3 >= 1000 {print $1}' | sort`
+
+
+for i in ${nis_user[@]}; do
+        if w | grep -w $i >> /dev/null 2>&1; then
+		ps -u $i -o %cpu,%mem --no-headers | awk -v user=$i 'BEGIN {green="\033[32m"; reset="\033[0m"} {cpu+=$1; mem+=$2} END {print green user reset"\t" cpu "%\t\t" mem "%"}' | while read output; do
+			cpu_use=$(echo $output | awk '{print $2}' | sed 's/%//')
+			mem_use=$(echo $output | awk '{print $3}' | sed 's/%//')
+			over_useage=60.0
+			if [[ -z "$cpu_use" || -z "$mem_use" ]]; then
+				echo -e "\e[31mUser Could not Access\e[0m"
+				continue
+			fi
+			if [ "$(echo "$cpu_use >= $over_useage" | bc)" -eq 1 ]; then
+				echo -e "\e[36mUser: $i use over usage. \e[31mCPU: $cpu_use%\e[36m, MEM: $mem_use%\e[0m"
+			fi
+			if [ "$(echo "$mem_use >= $over_useage" | bc)" -eq 1 ]; then
+                                echo -e "\e[36mUser: $i use over usage. CPU: $cpu_use%, \e[31mMEM: $mem_use%\e[0m"
+                        fi
+		done
+        fi
+done
+

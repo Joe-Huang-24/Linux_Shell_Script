@@ -1,0 +1,41 @@
+#!/usr/bin/env bash
+
+set -e
+export LC_ALL=C
+
+source /mis_daily_check/test.env
+
+if [ ! -f "$MAPFILE_PATH" ]; then
+	echo "[ERROR] Mapping file not found: $MAPFILE_PATH" >&2
+	exit 1
+fi
+
+users=()
+names=()
+while IFS= read -r line; do
+	[ -z "$line" ] && continue
+	case "$line" in \#*) continue ;; esac
+
+	u="${line%%=*}"
+	n="${line#*=}"
+
+	u="${u#"${u%%[![:space:]]*}"}"; u="${u%"${u##*[![:space:]]}"}"
+	n="${n#"${n%%[![:space:]]*}"}"; n="${n%"${n##*[![:space:]]}"}"
+
+	[ -z "$u" ] && continue
+
+	users+=("$u")
+	names+=("$n")
+done < "$MAPFILE_PATH"
+
+tmp_online="$(mktemp /tmp/online.XXXXXX)"
+ps auxww | awk 'NR>1{print $1}' | sort -u > "$tmp_online"
+
+for i in "${!users[@]}"; do
+	if grep -xFq "${users[$i]}" "$tmp_online"; then
+		echo "User Account: ${users[$i]}  User Name: ${names[$i]}"
+	fi
+done
+
+#rm -f "$tmp_online"
+trap 'rm -f "$tmp_online"' EXIT
