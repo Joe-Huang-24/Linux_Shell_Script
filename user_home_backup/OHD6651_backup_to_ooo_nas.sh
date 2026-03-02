@@ -9,6 +9,10 @@ log() {
     echo "$(date '+%Y-%m-%d %H:%M:%S') - $1" | tee -a "$LOGFILE"
 }
 
+log_END() {
+    echo -e "$(date '+%Y-%m-%d %H:%M:%S') - $1\n\n" | tee -a "$LOGFILE"
+}
+
 OoO_User=`ls -l /OHD6651/home | grep 'OoO' | awk '{print $9}'`
 
 log "=== Backup OoO User Home Start ==="
@@ -31,5 +35,5 @@ else
         exit $?
 fi
 log "Running Script END --- Backup Finished."
-log "====== DONE ======"
+log_END "====== DONE ======"
 
