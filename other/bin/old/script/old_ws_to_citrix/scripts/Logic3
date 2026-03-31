@@ -1,0 +1,18 @@
+#!/bin/bash
+
+#file_Logic2=$(cat /backup_sh/old_ws_to_citrix/List_Logic2)
+set file_Logic3=$(cat /backup_sh/old_ws_to_citrix/List_Logic3)
+
+
+# 同步檔案
+for i in ${file_Logic3[@]}; do
+	echo "同步檔案：$i"
+	rsync -av /mnt/sdc1/"$i" /HD6501/Old_Project1/Logic3 >> /backup_sh/old_ws_to_citrix/log/$(date +%Y%m%d)_CP_Logic3.log
+done
+
+echo -e "\e[33mLogic3 檔案同步完成！\e[0m"
+
+# 卸載掛載點
+unset file_Logic3
+umount -l /mnt/sdc1
+

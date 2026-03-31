@@ -1,0 +1,171 @@
+#!/bin/bash
+
+#export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+usage() {
+    echo "Usage: $0 [-a] [-l] [-h] [-i]"
+    echo "  -a    show all check data"
+    echo "  -i    Check all server information (services: ypbind, autofs)"
+    echo "  -l    Check backup status"
+    echo "  -h    Show this help message"
+    exit 0
+}
+
+show_srv_information() {
+	/mis_daily_check/function/show_srv_information
+}
+	
+ping_hosts() {
+	local iplist="/mis_daily_check/function/iplist.txt"
+	cat $iplist | while read output ; do
+		ping -c 2 "$output" > /dev/null 2>&1
+		if [ $? -eq 0 ]; then
+			echo "Server $output is up" >> /dev/null 2>&1
+		else
+			echo "Server $output is down"  # >> /mis_daily_check/log/$(date "+%Y-%m-%d_%H:00")_Server_Down.log
+		fi
+	done
+}
+
+
+services_check() {
+	local services=$(cat /mis_daily_check/function/services.txt)
+	h=$(hostname)
+	echo -e "\e[1;35mChecking Main Services\e[0m"
+	case "$h" in
+		sr650-1|SR650-1|sr650-2|SR650-2|sr650-4|SR650-4|sr650-7|SR650-7|sr665-1|SR665-1|sr665-2|SR665-2|p920-1|P920-1)
+			for i in ${services[@]}; do
+				systemctl status $i >> /dev/null 2>&1 && echo -e "\e[1;33mService $i is Active\e[0m" || echo -e "\e[1;31mService $i is Dead\e[0m"
+			done
+		;;
+		sr650-3|SR650-3|sr650-5|SR650-5|sr650-6|SR650-6|p920-2|P920-2|p920-3|P920-3)
+			export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+			for l in ${services[@]}; do
+				service $l status >> /dev/null 2>&1
+				if [ $? -eq 0 ]; then
+					echo -e "\e[1;33mService $l is Active\e[0m"
+				else
+					echo -e "\e[1;31mService $l is Dead\e[0m"
+				fi
+			done
+			;;
+			esac			
+	echo
+	echo
+}
+
+
+daily_backup() {
+	for a in $(hostname); do
+		case "$a" in
+			sr650-1|SR650-1)
+				if /mis_daily_check/function/sr650-1_check_backup -d 2; then
+					echo -e "\e[32mBackup check completed successfully.\e[0m"
+				else
+					 echo -e "\e[31mBackup check failed.\e[0m"
+				fi
+                ;;
+                        sr650-2|SR650-2)
+                                if /mis_daily_check/function/sr650-2_check_backup -d 2; then
+                                        echo -e "\e[32mBackup check completed successfully.\e[0m"
+                                else
+                                         echo -e "\e[31mBackup check failed.\e[0m"
+                                fi
+                ;;
+                        sr650-3|SR650-3)
+                                if /mis_daily_check/function/sr650-3_check_backup -d 2; then
+                                        echo -e "\e[32mBackup check completed successfully.\e[0m"
+                                else
+                                         echo -e "\e[31mBackup check failed.\e[0m"
+                                fi	
+		;;
+                        sr650-4|SR650-4)
+                                if /mis_daily_check/function/sr650-4_check_backup -d 2; then
+                                        echo -e "\e[32mBackup check completed successfully.\e[0m"
+                                else
+                                         echo -e "\e[31mBackup check failed.\e[0m"
+                                fi
+                ;;
+			sr650-5|SR650-5)
+                                if /mis_daily_check/function/sr650-5_check_backup -d 2; then
+                                        echo -e "\e[32mBackup check completed successfully.\e[0m"
+                                else
+                                         echo -e "\e[31mBackup check failed.\e[0m"
+                                fi
+                ;;
+			sr650-6|SR650-6)	
+				if /mis_daily_check/function/sr650-6_check_backup -d 2; then
+                                        echo -e "\e[32mBackup check completed successfully.\e[0m"
+                                else
+                                         echo -e "\e[31mBackup check failed.\e[0m"
+                                fi
+                ;;
+			sr665-1|SR665-1)
+				if /mis_daily_check/function/sr665-1_check_backup -d 2; then
+                                        echo -e "\e[32mBackup check completed successfully.\e[0m"
+                                else
+                                         echo -e "\e[31mBackup check failed.\e[0m"
+                                fi
+                ;;
+			p920-1|P920-1)
+				if /mis_daily_check/function/p920-1_check_backup -d 2; then
+                                        echo -e "\e[32mBackup check completed successfully.\e[0m"
+                                else
+                                         echo -e "\e[31mBackup check failed.\e[0m"
+                                fi
+                ;;
+		esac
+	done
+}
+
+
+del_log() {
+	find /mis_daily_check/log -type f -name "*.log" -mmin +120 -exec rm -rf {} \;
+}	
+
+while getopts "ailhp" opt; do
+    case $opt in
+        a)
+	    show_srv_information
+            services_check
+	    daily_backup
+            exit 0
+	    ;;
+        i)
+            show_srv_information
+            services_check
+            exit 0
+            ;;
+        l)
+            daily_backup
+            exit 0
+            ;;
+	p)
+	    ping_hosts
+	    exit 0
+            ;;
+        h)
+            usage
+            ;;
+        *)
+            usage
+            ;;
+    esac
+done
+
+# If No parameters are specified, Used Default Value.
+{
+if [[ $# -eq 0 ]]; then
+	echo -e "\e[36mIf No parameters are specified, Used Default Value.\e[0m\n"
+#	echo -e "\e[
+	show_srv_information
+	services_check
+	daily_backup
+	echo -e "\n\e[35mShow $(hostname) NTP SYNC.\e[0m"
+	chronyc sources -v
+	del_log
+	exit 0
+fi
+} >> /mis_daily_check/log/$(hostname)_$(date +%Y-%m-%d-%T)_Daily_Check.log
+
+

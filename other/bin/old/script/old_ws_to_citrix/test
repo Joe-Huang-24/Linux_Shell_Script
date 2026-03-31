@@ -1,0 +1,54 @@
+#!/bin/bash
+
+usage() {
+    echo "Usage: $0 [-d DAYS] [-n NTH_DAY] [-h]"
+    echo "  -a Extra Check Check All Server Information"
+    echo "  -l log check Check backup status"
+    echo "  -h           Show this help message"
+    exit 0
+}
+
+service_check() {
+	local service=("ypbind" "autofs")
+	for i in ${service[@]}; do
+		service $i status >> /dev/null 2>&1 && echo -e "\e[33mService $i is Active\e[0m" || echo -e "\e[31mService $i is Dead\e[0m"
+	done
+	exit 0
+}
+
+daily_backup() {
+	/backup_sh/check_backup -d 2
+}
+
+
+while getopts "a:l:h" opt; do
+    case $opt in
+        a)
+            service_check 
+            ;;
+        l)
+            daily_backup
+            ;;
+        h)
+            usage
+            ;;
+        *)
+            usage
+            ;;
+    esac
+done
+
+#for i in $(hostname); do
+#	case "$i" in
+#		sr650-1|SR650-1)
+#			if systemctl status ypbind >> /dev/null 2>&1; then
+#				echo -e "\e[33m$(hostname) YP Bind Service is Active!\e[0m"
+#			else
+#				echo "test2"
+#			fi
+#	;;
+#		sr650-2|SR650-2)
+#			echo "$(hostname)"
+#	;;
+#	esac
+#done

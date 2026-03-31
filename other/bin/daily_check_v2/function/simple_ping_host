@@ -1,0 +1,14 @@
+#!/bin/bash
+
+server_list=`cat /mis_daily_check/tools/bin/daily_check_v2/function/iplist.txt | awk '{print $1}'`
+
+msg() { printf '%b\n' "$*"; }
+
+for s in ${server_list[@]}; do
+	ping -c 2 $s > /dev/null 2>&1
+	if [ $? -eq 0 ]; then
+		msg "$s is active"
+	else
+		msg "$s is Dead"
+	fi
+done

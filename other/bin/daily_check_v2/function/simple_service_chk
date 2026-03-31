@@ -1,0 +1,40 @@
+#!/bin/bash
+
+set -uo pipefail
+
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+BASE_DIR="/mis_daily_check"
+TOOL_DIR="${BASE_DIR}/tools"
+TOOL_BIN_DIR="${TOOL_DIR}/bin"
+SCRIPT_DIR="${TOOL_BIN_DIR}/daily_check_v2"
+FUNCTION_DIR="${SCRIPT_DIR}/function"
+SERVICES_FILE="${FUNCTION_DIR}/services.txt"
+
+is_systemd() {
+    command -v systemctl >/dev/null 2>&1 && [[ -d /run/systemd/system ]]
+}
+
+check_service_status() {
+#	local services=`cat $SERVICES_FILE`
+	local services="$1"
+#	for s in ${services[@]}; do
+	if is_systemd; then
+		systemctl is-active "$s" >> /dev/null 2>&1
+	else
+		service "$s" status >> /dev/null 2>&1
+	fi
+#	done
+}
+
+service_check() {
+	local services=`cat $SERVICES_FILE`
+	for s in ${services[@]}; do
+		if check_service_status $s; then
+			ok "Service $s is active"
+		else
+			err "Service $s is Dead"
+		fi
+	done
+}
+

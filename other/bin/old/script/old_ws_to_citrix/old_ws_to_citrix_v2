@@ -1,0 +1,59 @@
+#!/bin/bash
+
+## 定義檔案列表
+file_Logic2=$(cat /backup_sh/old_ws_to_citrix/List_Logic2)
+file_Logic3=$(cat /backup_sh/old_ws_to_citrix/List_Logic3)
+# 掛載檢查函數
+#function check_and_mount {
+#    mount_point=$1
+#    device_or_share=$2
+#    mount "$device_or_share" "$mount_point"
+#    if ! mount | grep -q "$mount_point"; then
+#        echo "掛載失敗：$mount_point"
+#        exit 1
+#    fi
+#}
+
+# 主程序
+case "${1}" in
+    "Logic2")
+        echo "開始處理 Logic2 任務..."
+        /backup_sh/old_ws_to_citrix/scripts/Logic2
+        # 掛載設備
+        /backup_sh/old_ws_to_citrix/function/check_and_mount /mnt/sdc1 /dev/sdc1
+
+        # 同步檔案
+        for i in ${file_Logic2[@]}; do
+            echo "同步檔案：$i"
+            rsync -av /mnt/sdc1/"$i" /HD6501/Old_Project1/Logic2 >> /backup_sh/old_ws_to_citrix/log/$(date +%Y%m%d)_CP_Logic2.log
+        done
+
+        echo -e "\e[33mLogic2 檔案同步完成！\e[0m"
+
+        # 卸載掛載點
+        umount -l /mnt/sdc1
+        ;;
+    "Logic3")
+        echo "開始處理 Logic3 任務..."
+	/backup_sh/old_ws_to_citrix/scripts/Logic3
+
+        # 掛載設備
+        check_and_mount /mnt/sdc1 /dev/sdc1
+
+        # 同步檔案
+        for i in ${file_Logic3[@]}; do
+            echo "同步檔案：$i"
+            rsync -av /mnt/sdc1/"$i" /HD6501/Old_Project1/Logic3 >> /backup_sh/old_ws_to_citrix/log/$(date +%Y%m%d)_CP_Logic3.log
+        done
+
+        echo -e "\e[33mLogic3 檔案同步完成！\e[0m"
+
+        # 卸載掛載點
+        umount -l /mnt/sdc1
+        ;;
+    *)
+        echo "用法：$0 {Logic2|Logic3}"
+        exit 1
+        ;;
+esac
+

@@ -1,0 +1,2265 @@
+Start Sync /mnt/sdc1/temp/david/19991231-david.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/19991231-david-synopsys.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/19991231-david-synopsys.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/19991231-david.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20000503-david-tapeout-1.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20000503-david-tapeout-1.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20000921-david.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20000921-david.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20001031-david.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20001031-david.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20010207-david-05um.tapeout.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20010207-david-05um.tapeout.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20010531-david486.gz to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20010531-david486.gz.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20010531-david-scanchain.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20010531-david-scanchain.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20010531-david-u18.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20010531-david-u18.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20010601-david018.gz to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20010601-david018.gz.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20020312-david-r486-035025018.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20020312-david-r486-035025018.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20020312-david-r8870-ftc018.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20020312-david-r8870-ftc018.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20030320-david-DSP-FTC018.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20030320-david-DSP-FTC018.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20030320-david-DSP-TSMC018.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20030320-david-DSP-TSMC018.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20030421-david-PKS2_adb.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20030421-david-PKS2_adb.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20030421-david-PKS_adb.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20030421-david-PKS_adb.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20030421-david-PKS_SPC.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20030421-david-PKS_SPC.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20030421-david-r486.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20030421-david-r486.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20030421-david-SPC.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20030421-david-SPC.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20090506-david-R3301_3.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20090506-david-R3301_3.tar.bz2 to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20090506-david-R3301_3.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-1.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-1.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-2.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-2.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-3.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-3.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-4.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-4.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-5.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-5.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-1.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-1.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-2.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-2.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-3.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-3.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-4.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-4.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-5.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-5.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-6.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-6.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/R3301 to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Start Sync /mnt/sdc1/temp/david/R3303 to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+Sync /mnt/sdc1/temp/david/R3303 to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp Finished
+Start Sync /mnt/sdc1/temp/david/19991231-david.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/19991231-david.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/19991231-david-synopsys.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/19991231-david-synopsys.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/19991231-david-synopsys.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/19991231-david-synopsys.tar.gz.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/19991231-david.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/19991231-david.tar.gz.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20000503-david-tapeout-1.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20000503-david-tapeout-1.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20000503-david-tapeout-1.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20000503-david-tapeout-1.tar.gz.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20000921-david.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20000921-david.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20000921-david.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20000921-david.tar.gz.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20001031-david.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20001031-david.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20001031-david.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20001031-david.tar.gz.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20010207-david-05um.tapeout.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20010207-david-05um.tapeout.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20010207-david-05um.tapeout.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20010207-david-05um.tapeout.tar.gz.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20010531-david486.gz to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20010531-david486.gz" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20010531-david486.gz.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20010531-david486.gz.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20010531-david-scanchain.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20010531-david-scanchain.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20010531-david-scanchain.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20010531-david-scanchain.tar.gz.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20010531-david-u18.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20010531-david-u18.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20010531-david-u18.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20010531-david-u18.tar.gz.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20010601-david018.gz to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20010601-david018.gz" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20010601-david018.gz.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20010601-david018.gz.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20020312-david-r486-035025018.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20020312-david-r486-035025018.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20020312-david-r486-035025018.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20020312-david-r486-035025018.tar.gz.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20020312-david-r8870-ftc018.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20020312-david-r8870-ftc018.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20020312-david-r8870-ftc018.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20020312-david-r8870-ftc018.tar.gz.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20030320-david-DSP-FTC018.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20030320-david-DSP-FTC018.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20030320-david-DSP-FTC018.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20030320-david-DSP-FTC018.tar.gz.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20030320-david-DSP-TSMC018.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20030320-david-DSP-TSMC018.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20030320-david-DSP-TSMC018.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20030320-david-DSP-TSMC018.tar.gz.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20030421-david-PKS2_adb.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20030421-david-PKS2_adb.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20030421-david-PKS2_adb.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20030421-david-PKS2_adb.tar.gz.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20030421-david-PKS_adb.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20030421-david-PKS_adb.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20030421-david-PKS_adb.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20030421-david-PKS_adb.tar.gz.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20030421-david-PKS_SPC.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20030421-david-PKS_SPC.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20030421-david-PKS_SPC.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20030421-david-PKS_SPC.tar.gz.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20030421-david-r486.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20030421-david-r486.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20030421-david-r486.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20030421-david-r486.tar.gz.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20030421-david-SPC.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20030421-david-SPC.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20030421-david-SPC.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20030421-david-SPC.tar.gz.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090506-david-R3301_3.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090506-david-R3301_3.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  20.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090506-david-R3301_3.tar.bz2 to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090506-david-R3301_3.tar.bz2" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090506-david-R3301_3.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090506-david-R3301_3.tar.bz2.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-1.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-F90-1.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-1.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-F90-1.tar.bz2.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-2.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-F90-2.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-2.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-F90-2.tar.bz2.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-3.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-F90-3.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-3.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-F90-3.tar.bz2.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-4.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-F90-4.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-4.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-F90-4.tar.bz2.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-5.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-F90-5.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-5.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-F90-5.tar.bz2.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-1.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-UMCL90G-1.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-1.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-UMCL90G-1.tar.bz2.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-2.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-UMCL90G-2.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-2.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-UMCL90G-2.tar.bz2.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-3.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-UMCL90G-3.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-3.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-UMCL90G-3.tar.bz2.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-4.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-UMCL90G-4.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-4.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-UMCL90G-4.tar.bz2.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-5.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-UMCL90G-5.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-5.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-UMCL90G-5.tar.bz2.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-6.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-UMCL90G-6.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-6.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-UMCL90G-6.tar.bz2.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/R3301 to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/R3301" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/R3303 to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/R3303" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/19991231-david.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/19991231-david.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/19991231-david-synopsys.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/19991231-david-synopsys.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/19991231-david-synopsys.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/19991231-david-synopsys.tar.gz.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/19991231-david.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/19991231-david.tar.gz.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20000503-david-tapeout-1.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20000503-david-tapeout-1.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20000503-david-tapeout-1.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20000503-david-tapeout-1.tar.gz.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20000921-david.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20000921-david.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20000921-david.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20000921-david.tar.gz.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20001031-david.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20001031-david.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20001031-david.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20001031-david.tar.gz.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20010207-david-05um.tapeout.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20010207-david-05um.tapeout.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20010207-david-05um.tapeout.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20010207-david-05um.tapeout.tar.gz.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20010531-david486.gz to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20010531-david486.gz" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20010531-david486.gz.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20010531-david486.gz.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20010531-david-scanchain.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20010531-david-scanchain.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20010531-david-scanchain.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20010531-david-scanchain.tar.gz.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20010531-david-u18.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20010531-david-u18.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20010531-david-u18.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20010531-david-u18.tar.gz.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20010601-david018.gz to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20010601-david018.gz" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20010601-david018.gz.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20010601-david018.gz.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20020312-david-r486-035025018.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20020312-david-r486-035025018.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20020312-david-r486-035025018.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20020312-david-r486-035025018.tar.gz.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20020312-david-r8870-ftc018.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20020312-david-r8870-ftc018.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20020312-david-r8870-ftc018.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20020312-david-r8870-ftc018.tar.gz.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20030320-david-DSP-FTC018.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20030320-david-DSP-FTC018.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20030320-david-DSP-FTC018.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20030320-david-DSP-FTC018.tar.gz.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20030320-david-DSP-TSMC018.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20030320-david-DSP-TSMC018.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20030320-david-DSP-TSMC018.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20030320-david-DSP-TSMC018.tar.gz.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20030421-david-PKS2_adb.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20030421-david-PKS2_adb.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20030421-david-PKS2_adb.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20030421-david-PKS2_adb.tar.gz.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20030421-david-PKS_adb.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20030421-david-PKS_adb.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20030421-david-PKS_adb.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20030421-david-PKS_adb.tar.gz.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20030421-david-PKS_SPC.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20030421-david-PKS_SPC.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20030421-david-PKS_SPC.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20030421-david-PKS_SPC.tar.gz.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20030421-david-r486.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20030421-david-r486.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20030421-david-r486.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20030421-david-r486.tar.gz.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20030421-david-SPC.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20030421-david-SPC.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20030421-david-SPC.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20030421-david-SPC.tar.gz.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090506-david-R3301_3.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090506-david-R3301_3.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090506-david-R3301_3.tar.bz2 to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090506-david-R3301_3.tar.bz2" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090506-david-R3301_3.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090506-david-R3301_3.tar.bz2.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-1.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-F90-1.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-1.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-F90-1.tar.bz2.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-2.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-F90-2.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-2.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-F90-2.tar.bz2.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-3.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-F90-3.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-3.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-F90-3.tar.bz2.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-4.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-F90-4.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-4.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-F90-4.tar.bz2.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-5.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-F90-5.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-5.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-F90-5.tar.bz2.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-1.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-UMCL90G-1.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-1.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-UMCL90G-1.tar.bz2.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-2.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-UMCL90G-2.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-2.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-UMCL90G-2.tar.bz2.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-3.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-UMCL90G-3.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-3.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-UMCL90G-3.tar.bz2.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-4.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-UMCL90G-4.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-4.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-UMCL90G-4.tar.bz2.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-5.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-UMCL90G-5.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-5.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-UMCL90G-5.tar.bz2.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-6.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-UMCL90G-6.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-6.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-UMCL90G-6.tar.bz2.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/R3301 to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/R3301" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/R3303 to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/R3303" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/19991231-david.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/19991231-david.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/19991231-david-synopsys.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/19991231-david-synopsys.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/19991231-david-synopsys.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/19991231-david-synopsys.tar.gz.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/19991231-david.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/19991231-david.tar.gz.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20000503-david-tapeout-1.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20000503-david-tapeout-1.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20000503-david-tapeout-1.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20000503-david-tapeout-1.tar.gz.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20000921-david.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20000921-david.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20000921-david.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20000921-david.tar.gz.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20001031-david.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20001031-david.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20001031-david.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20001031-david.tar.gz.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20010207-david-05um.tapeout.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20010207-david-05um.tapeout.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20010207-david-05um.tapeout.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20010207-david-05um.tapeout.tar.gz.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20010531-david486.gz to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20010531-david486.gz" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20010531-david486.gz.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20010531-david486.gz.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20010531-david-scanchain.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20010531-david-scanchain.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20010531-david-scanchain.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20010531-david-scanchain.tar.gz.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20010531-david-u18.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20010531-david-u18.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20010531-david-u18.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20010531-david-u18.tar.gz.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20010601-david018.gz to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20010601-david018.gz" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20010601-david018.gz.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20010601-david018.gz.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20020312-david-r486-035025018.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20020312-david-r486-035025018.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20020312-david-r486-035025018.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20020312-david-r486-035025018.tar.gz.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20020312-david-r8870-ftc018.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20020312-david-r8870-ftc018.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20020312-david-r8870-ftc018.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20020312-david-r8870-ftc018.tar.gz.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20030320-david-DSP-FTC018.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20030320-david-DSP-FTC018.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20030320-david-DSP-FTC018.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20030320-david-DSP-FTC018.tar.gz.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20030320-david-DSP-TSMC018.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20030320-david-DSP-TSMC018.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20030320-david-DSP-TSMC018.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20030320-david-DSP-TSMC018.tar.gz.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20030421-david-PKS2_adb.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20030421-david-PKS2_adb.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20030421-david-PKS2_adb.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20030421-david-PKS2_adb.tar.gz.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20030421-david-PKS_adb.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20030421-david-PKS_adb.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20030421-david-PKS_adb.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20030421-david-PKS_adb.tar.gz.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20030421-david-PKS_SPC.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20030421-david-PKS_SPC.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20030421-david-PKS_SPC.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20030421-david-PKS_SPC.tar.gz.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20030421-david-r486.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20030421-david-r486.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20030421-david-r486.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20030421-david-r486.tar.gz.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20030421-david-SPC.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20030421-david-SPC.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20030421-david-SPC.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20030421-david-SPC.tar.gz.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090506-david-R3301_3.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090506-david-R3301_3.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090506-david-R3301_3.tar.bz2 to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090506-david-R3301_3.tar.bz2" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090506-david-R3301_3.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090506-david-R3301_3.tar.bz2.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-1.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-F90-1.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-1.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-F90-1.tar.bz2.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-2.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-F90-2.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-2.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-F90-2.tar.bz2.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-3.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-F90-3.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-3.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-F90-3.tar.bz2.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-4.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-F90-4.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-4.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-F90-4.tar.bz2.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-5.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-F90-5.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-5.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-F90-5.tar.bz2.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-1.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-UMCL90G-1.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-1.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-UMCL90G-1.tar.bz2.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-2.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-UMCL90G-2.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-2.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-UMCL90G-2.tar.bz2.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-3.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-UMCL90G-3.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-3.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-UMCL90G-3.tar.bz2.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-4.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-UMCL90G-4.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-4.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-UMCL90G-4.tar.bz2.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-5.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-UMCL90G-5.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-5.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-UMCL90G-5.tar.bz2.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-6.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-UMCL90G-6.list" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-6.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/20090902-david-UMCL90G-6.tar.bz2.crypt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/R3301 to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/R3301" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/R3303 to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+rsync: link_stat "/backup_sh/old_ws_to_citrix/scripts/R3303" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+Start Sync /mnt/sdc1/temp/david/19991231-david.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-r--r--      1,321,711 2016/01/22 10:54:06 19991231-david.list
+
+sent 52 bytes  received 82 bytes  268.00 bytes/sec
+total size is 1,321,711  speedup is 9,863.51
+Start Sync /mnt/sdc1/temp/david/19991231-david-synopsys.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-r--r--      1,321,711 2016/01/29 15:03:09 19991231-david-synopsys.list
+
+sent 61 bytes  received 91 bytes  304.00 bytes/sec
+total size is 1,321,711  speedup is 8,695.47
+Start Sync /mnt/sdc1/temp/david/19991231-david-synopsys.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-rw-rw-     33,148,731 1999/12/31 22:43:03 19991231-david-synopsys.tar.gz.crypt
+
+sent 82 bytes  received 99 bytes  362.00 bytes/sec
+total size is 33,148,731  speedup is 183,142.16
+Start Sync /mnt/sdc1/temp/david/19991231-david.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-r--r--     33,148,731 2016/01/22 08:53:23 19991231-david.tar.gz.crypt
+
+sent 61 bytes  received 90 bytes  302.00 bytes/sec
+total size is 33,148,731  speedup is 219,528.02
+Start Sync /mnt/sdc1/temp/david/20000503-david-tapeout-1.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-r--r--          2,860 2016/01/25 18:01:30 20000503-david-tapeout-1.list
+
+sent 62 bytes  received 92 bytes  308.00 bytes/sec
+total size is 2,860  speedup is 18.57
+Start Sync /mnt/sdc1/temp/david/20000503-david-tapeout-1.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-r-----     10,438,560 2016/01/22 14:05:49 20000503-david-tapeout-1.tar.gz.crypt
+
+sent 71 bytes  received 100 bytes  342.00 bytes/sec
+total size is 10,438,560  speedup is 61,044.21
+Start Sync /mnt/sdc1/temp/david/20000921-david.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-r--r--          5,358 2016/01/25 18:09:47 20000921-david.list
+
+sent 52 bytes  received 82 bytes  268.00 bytes/sec
+total size is 5,358  speedup is 39.99
+Start Sync /mnt/sdc1/temp/david/20000921-david.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-r-----     27,545,325 2000/10/03 09:26:20 20000921-david.tar.gz.crypt
+
+sent 73 bytes  received 90 bytes  326.00 bytes/sec
+total size is 27,545,325  speedup is 168,989.72
+Start Sync /mnt/sdc1/temp/david/20001031-david.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-r--r--         97,958 2016/01/25 18:11:49 20001031-david.list
+
+sent 52 bytes  received 82 bytes  268.00 bytes/sec
+total size is 97,958  speedup is 731.03
+Start Sync /mnt/sdc1/temp/david/20001031-david.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-r-----    327,128,452 2000/10/31 21:14:21 20001031-david.tar.gz.crypt
+
+sent 73 bytes  received 90 bytes  326.00 bytes/sec
+total size is 327,128,452  speedup is 2,006,923.02
+Start Sync /mnt/sdc1/temp/david/20010207-david-05um.tapeout.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-r--r--         46,541 2016/02/04 17:37:33 20010207-david-05um.tapeout.list
+
+sent 65 bytes  received 95 bytes  320.00 bytes/sec
+total size is 46,541  speedup is 290.88
+Start Sync /mnt/sdc1/temp/david/20010207-david-05um.tapeout.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-r-----     22,873,454 2001/02/08 09:22:22 20010207-david-05um.tapeout.tar.gz.crypt
+
+sent 86 bytes  received 103 bytes  378.00 bytes/sec
+total size is 22,873,454  speedup is 121,023.57
+Start Sync /mnt/sdc1/temp/david/20010531-david486.gz to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-r-xr-xr-x    177,377,745 2001/05/31 20:38:20 20010531-david486.gz
+
+sent 54 bytes  received 83 bytes  274.00 bytes/sec
+total size is 177,377,745  speedup is 1,294,728.07
+Start Sync /mnt/sdc1/temp/david/20010531-david486.gz.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-r--r--              0 2016/02/04 18:11:43 20010531-david486.gz.list
+
+sent 58 bytes  received 88 bytes  292.00 bytes/sec
+total size is 0  speedup is 0.00
+Start Sync /mnt/sdc1/temp/david/20010531-david-scanchain.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-r--r--        116,780 2016/02/04 17:47:56 20010531-david-scanchain.list
+
+sent 62 bytes  received 92 bytes  308.00 bytes/sec
+total size is 116,780  speedup is 758.31
+Start Sync /mnt/sdc1/temp/david/20010531-david-scanchain.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-r-----     20,747,612 2001/05/31 18:40:23 20010531-david-scanchain.tar.gz.crypt
+
+sent 83 bytes  received 100 bytes  366.00 bytes/sec
+total size is 20,747,612  speedup is 113,374.93
+Start Sync /mnt/sdc1/temp/david/20010531-david-u18.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-r--r--        292,132 2016/02/04 17:48:30 20010531-david-u18.list
+
+sent 56 bytes  received 86 bytes  284.00 bytes/sec
+total size is 292,132  speedup is 2,057.27
+Start Sync /mnt/sdc1/temp/david/20010531-david-u18.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-r-----    605,173,335 2001/05/31 18:40:03 20010531-david-u18.tar.gz.crypt
+
+sent 77 bytes  received 94 bytes  342.00 bytes/sec
+total size is 605,173,335  speedup is 3,539,025.35
+Start Sync /mnt/sdc1/temp/david/20010601-david018.gz to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-r-xr-xr-x    566,099,009 2001/06/01 11:43:42 20010601-david018.gz
+
+sent 54 bytes  received 83 bytes  274.00 bytes/sec
+total size is 566,099,009  speedup is 4,132,109.55
+Start Sync /mnt/sdc1/temp/david/20010601-david018.gz.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-r--r--              0 2016/02/04 18:11:47 20010601-david018.gz.list
+
+sent 58 bytes  received 88 bytes  292.00 bytes/sec
+total size is 0  speedup is 0.00
+Start Sync /mnt/sdc1/temp/david/20020312-david-r486-035025018.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-r--r--        132,589 2016/01/20 20:24:39 20020312-david-r486-035025018.list
+
+sent 67 bytes  received 97 bytes  328.00 bytes/sec
+total size is 132,589  speedup is 808.47
+Start Sync /mnt/sdc1/temp/david/20020312-david-r486-035025018.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-r-----    230,884,455 2016/01/19 16:45:30 20020312-david-r486-035025018.tar.gz.crypt
+
+sent 76 bytes  received 105 bytes  362.00 bytes/sec
+total size is 230,884,455  speedup is 1,275,604.72
+Start Sync /mnt/sdc1/temp/david/20020312-david-r8870-ftc018.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-r--r--        137,534 2016/01/20 20:24:48 20020312-david-r8870-ftc018.list
+
+sent 65 bytes  received 95 bytes  320.00 bytes/sec
+total size is 137,534  speedup is 859.59
+Start Sync /mnt/sdc1/temp/david/20020312-david-r8870-ftc018.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-r-----    155,710,648 2016/01/19 16:46:12 20020312-david-r8870-ftc018.tar.gz.crypt
+
+sent 74 bytes  received 103 bytes  354.00 bytes/sec
+total size is 155,710,648  speedup is 879,721.18
+Start Sync /mnt/sdc1/temp/david/20030320-david-DSP-FTC018.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-r--r--      1,126,070 2016/02/04 18:58:52 20030320-david-DSP-FTC018.list
+
+sent 63 bytes  received 93 bytes  312.00 bytes/sec
+total size is 1,126,070  speedup is 7,218.40
+Start Sync /mnt/sdc1/temp/david/20030320-david-DSP-FTC018.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-r-----    442,596,047 2003/03/20 16:52:45 20030320-david-DSP-FTC018.tar.gz.crypt
+
+sent 84 bytes  received 101 bytes  370.00 bytes/sec
+total size is 442,596,047  speedup is 2,392,411.06
+Start Sync /mnt/sdc1/temp/david/20030320-david-DSP-TSMC018.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-r--r--        758,738 2016/02/04 18:59:19 20030320-david-DSP-TSMC018.list
+
+sent 64 bytes  received 94 bytes  316.00 bytes/sec
+total size is 758,738  speedup is 4,802.14
+Start Sync /mnt/sdc1/temp/david/20030320-david-DSP-TSMC018.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-r-----    436,336,689 2003/03/20 19:18:36 20030320-david-DSP-TSMC018.tar.gz.crypt
+
+sent 85 bytes  received 102 bytes  374.00 bytes/sec
+total size is 436,336,689  speedup is 2,333,351.28
+Start Sync /mnt/sdc1/temp/david/20030421-david-PKS2_adb.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-r--r--            401 2016/02/04 19:03:20 20030421-david-PKS2_adb.list
+
+sent 61 bytes  received 91 bytes  304.00 bytes/sec
+total size is 401  speedup is 2.64
+Start Sync /mnt/sdc1/temp/david/20030421-david-PKS2_adb.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-r-----     78,012,050 2003/04/21 11:59:27 20030421-david-PKS2_adb.tar.gz.crypt
+
+sent 82 bytes  received 99 bytes  362.00 bytes/sec
+total size is 78,012,050  speedup is 431,005.80
+Start Sync /mnt/sdc1/temp/david/20030421-david-PKS_adb.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-r--r--          1,223 2016/02/04 19:03:30 20030421-david-PKS_adb.list
+
+sent 60 bytes  received 90 bytes  300.00 bytes/sec
+total size is 1,223  speedup is 8.15
+Start Sync /mnt/sdc1/temp/david/20030421-david-PKS_adb.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-r-----    186,851,563 2003/04/21 12:01:42 20030421-david-PKS_adb.tar.gz.crypt
+
+sent 81 bytes  received 98 bytes  358.00 bytes/sec
+total size is 186,851,563  speedup is 1,043,863.48
+Start Sync /mnt/sdc1/temp/david/20030421-david-PKS_SPC.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-r--r--          2,107 2016/02/04 19:03:50 20030421-david-PKS_SPC.list
+
+sent 60 bytes  received 90 bytes  300.00 bytes/sec
+total size is 2,107  speedup is 14.05
+Start Sync /mnt/sdc1/temp/david/20030421-david-PKS_SPC.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-r-----    330,974,940 2003/04/21 11:51:32 20030421-david-PKS_SPC.tar.gz.crypt
+
+sent 81 bytes  received 98 bytes  358.00 bytes/sec
+total size is 330,974,940  speedup is 1,849,022.01
+Start Sync /mnt/sdc1/temp/david/20030421-david-r486.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-r--r--        353,926 2016/02/04 19:04:07 20030421-david-r486.list
+
+sent 57 bytes  received 87 bytes  288.00 bytes/sec
+total size is 353,926  speedup is 2,457.82
+Start Sync /mnt/sdc1/temp/david/20030421-david-r486.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-r-----    281,999,740 2003/04/21 12:52:52 20030421-david-r486.tar.gz.crypt
+
+sent 78 bytes  received 95 bytes  346.00 bytes/sec
+total size is 281,999,740  speedup is 1,630,056.30
+Start Sync /mnt/sdc1/temp/david/20030421-david-SPC.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-r--r--            483 2016/02/04 19:04:11 20030421-david-SPC.list
+
+sent 56 bytes  received 86 bytes  284.00 bytes/sec
+total size is 483  speedup is 3.40
+Start Sync /mnt/sdc1/temp/david/20030421-david-SPC.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-r-----     66,119,357 2003/04/21 11:49:19 20030421-david-SPC.tar.gz.crypt
+
+sent 77 bytes  received 94 bytes  342.00 bytes/sec
+total size is 66,119,357  speedup is 386,662.91
+Start Sync /mnt/sdc1/temp/david/20090506-david-R3301_3.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-r-----          2,372 2009/05/06 18:08:19 20090506-david-R3301_3.list
+
+sent 72 bytes  received 90 bytes  324.00 bytes/sec
+total size is 2,372  speedup is 14.64
+Start Sync /mnt/sdc1/temp/david/20090506-david-R3301_3.tar.bz2 to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-------  1,176,610,228 2009/05/06 13:24:37 20090506-david-R3301_3.tar.bz2
+
+sent 65 bytes  received 93 bytes  316.00 bytes/sec
+total size is 1,176,610,228  speedup is 7,446,900.18
+Start Sync /mnt/sdc1/temp/david/20090506-david-R3301_3.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-------  1,176,610,228 2009/05/06 13:24:37 20090506-david-R3301_3.tar.bz2.crypt
+
+sent 83 bytes  received 99 bytes  364.00 bytes/sec
+total size is 1,176,610,228  speedup is 6,464,891.36
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-1.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-r-----         28,811 2009/09/02 20:00:13 20090902-david-F90-1.list
+
+sent 70 bytes  received 88 bytes  316.00 bytes/sec
+total size is 28,811  speedup is 182.35
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-1.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-------    222,390,688 2009/09/02 19:49:03 20090902-david-F90-1.tar.bz2.crypt
+
+sent 80 bytes  received 97 bytes  354.00 bytes/sec
+total size is 222,390,688  speedup is 1,256,444.56
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-2.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-r-----      1,660,062 2009/09/02 20:08:01 20090902-david-F90-2.list
+
+sent 70 bytes  received 88 bytes  316.00 bytes/sec
+total size is 1,660,062  speedup is 10,506.72
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-2.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-------    418,319,186 2009/09/02 19:58:35 20090902-david-F90-2.tar.bz2.crypt
+
+sent 80 bytes  received 97 bytes  354.00 bytes/sec
+total size is 418,319,186  speedup is 2,363,385.23
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-3.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-r-----      1,699,936 2009/09/02 20:09:59 20090902-david-F90-3.list
+
+sent 70 bytes  received 88 bytes  316.00 bytes/sec
+total size is 1,699,936  speedup is 10,759.09
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-3.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-------    431,134,531 2009/09/02 20:04:33 20090902-david-F90-3.tar.bz2.crypt
+
+sent 80 bytes  received 97 bytes  354.00 bytes/sec
+total size is 431,134,531  speedup is 2,435,788.31
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-4.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-r-----        119,308 2009/09/02 20:24:55 20090902-david-F90-4.list
+
+sent 70 bytes  received 88 bytes  316.00 bytes/sec
+total size is 119,308  speedup is 755.11
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-4.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-------    666,504,545 2009/09/02 19:34:19 20090902-david-F90-4.tar.bz2.crypt
+
+sent 80 bytes  received 97 bytes  354.00 bytes/sec
+total size is 666,504,545  speedup is 3,765,562.40
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-5.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-r-----        156,913 2009/09/02 20:26:13 20090902-david-F90-5.list
+
+sent 70 bytes  received 88 bytes  316.00 bytes/sec
+total size is 156,913  speedup is 993.12
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-5.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-------    514,984,483 2009/09/02 20:41:04 20090902-david-F90-5.tar.bz2.crypt
+
+sent 80 bytes  received 97 bytes  354.00 bytes/sec
+total size is 514,984,483  speedup is 2,909,516.85
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-1.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-r-----      2,102,542 2009/09/02 11:03:02 20090902-david-UMCL90G-1.list
+
+sent 74 bytes  received 92 bytes  332.00 bytes/sec
+total size is 2,102,542  speedup is 12,665.92
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-1.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-------    628,405,952 2009/09/02 11:14:12 20090902-david-UMCL90G-1.tar.bz2.crypt
+
+sent 84 bytes  received 101 bytes  370.00 bytes/sec
+total size is 628,405,952  speedup is 3,396,788.93
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-2.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-r-----             97 2009/09/02 11:21:31 20090902-david-UMCL90G-2.list
+
+sent 74 bytes  received 92 bytes  332.00 bytes/sec
+total size is 97  speedup is 0.58
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-2.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-------    961,468,346 2009/09/02 11:42:29 20090902-david-UMCL90G-2.tar.bz2.crypt
+
+sent 84 bytes  received 101 bytes  370.00 bytes/sec
+total size is 961,468,346  speedup is 5,197,126.19
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-3.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-r-----         50,484 2009/09/02 16:35:53 20090902-david-UMCL90G-3.list
+
+sent 74 bytes  received 92 bytes  332.00 bytes/sec
+total size is 50,484  speedup is 304.12
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-3.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-------     17,992,487 2009/09/02 12:19:02 20090902-david-UMCL90G-3.tar.bz2.crypt
+
+sent 84 bytes  received 101 bytes  370.00 bytes/sec
+total size is 17,992,487  speedup is 97,256.69
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-4.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-r-----      5,231,528 2009/09/02 17:51:30 20090902-david-UMCL90G-4.list
+
+sent 74 bytes  received 92 bytes  332.00 bytes/sec
+total size is 5,231,528  speedup is 31,515.23
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-4.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-------    911,128,219 2009/09/02 17:40:16 20090902-david-UMCL90G-4.tar.bz2.crypt
+
+sent 84 bytes  received 101 bytes  370.00 bytes/sec
+total size is 911,128,219  speedup is 4,925,017.40
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-5.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-r-----         88,760 2009/09/02 18:25:22 20090902-david-UMCL90G-5.list
+
+sent 74 bytes  received 92 bytes  332.00 bytes/sec
+total size is 88,760  speedup is 534.70
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-5.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-------  1,163,180,078 2009/09/02 18:30:51 20090902-david-UMCL90G-5.tar.bz2.crypt
+
+sent 85 bytes  received 101 bytes  372.00 bytes/sec
+total size is 1,163,180,078  speedup is 6,253,656.33
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-6.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-r-----        187,543 2009/09/02 19:06:19 20090902-david-UMCL90G-6.list
+
+sent 74 bytes  received 92 bytes  332.00 bytes/sec
+total size is 187,543  speedup is 1,129.78
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-6.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+-rw-------    843,735,867 2009/09/02 19:15:17 20090902-david-UMCL90G-6.tar.bz2.crypt
+
+sent 84 bytes  received 101 bytes  370.00 bytes/sec
+total size is 843,735,867  speedup is 4,560,734.42
+Start Sync /mnt/sdc1/temp/david/R3301 to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+drwxr-xr-x          4,096 2024/12/18 09:02:18 R3301
+drwxr-xr-x          4,096 2024/12/18 09:02:52 R3301/FE52
+drwxr-xr-x          4,096 2009/05/05 12:59:18 R3301/FE52/OUTPUT20081113
+-rw-r--r--     80,328,310 2008/11/13 16:13:28 R3301/FE52/OUTPUT20081113/R3301.def.gz
+-rw-r--r--     75,931,648 2008/11/13 17:59:54 R3301/FE52/OUTPUT20081113/R3301.gds.gz
+-rw-r--r--    281,274,992 2008/11/13 19:10:16 R3301/FE52/OUTPUT20081113/R3301C.spef.gz
+-rw-r--r--    151,641,709 2008/11/13 17:50:33 R3301/FE52/OUTPUT20081113/R3301D.spef.gz
+drwxr-xr-x          4,096 2009/05/04 16:42:17 R3301/FE52/timingReports20081113
+-rw-r--r--         16,171 2009/05/04 16:41:49 R3301/FE52/timingReports20081113/R3301_signOff.cap
+-rw-r--r--            179 2009/05/04 16:41:49 R3301/FE52/timingReports20081113/R3301_signOff.fanout
+-rw-r--r--      7,769,709 2009/05/04 16:41:51 R3301/FE52/timingReports20081113/R3301_signOff.slk
+-rw-r--r--          1,065 2009/05/04 16:41:49 R3301/FE52/timingReports20081113/R3301_signOff.summary
+-rw-r--r--        107,876 2009/05/04 16:41:49 R3301/FE52/timingReports20081113/R3301_signOff.tran
+-rw-r--r--      7,262,908 2009/05/04 16:41:53 R3301/FE52/timingReports20081113/R3301_signOff_all.tarpt
+-rw-r--r--      8,540,131 2009/05/04 16:41:58 R3301/FE52/timingReports20081113/R3301_signOff_clkgate.tarpt
+-rw-r--r--            242 2009/05/04 16:41:54 R3301/FE52/timingReports20081113/R3301_signOff_in2out.tarpt
+-rw-r--r--      6,502,829 2009/05/04 16:41:54 R3301/FE52/timingReports20081113/R3301_signOff_in2reg.tarpt
+-rw-r--r--      1,048,486 2009/05/04 16:41:55 R3301/FE52/timingReports20081113/R3301_signOff_reg2out.tarpt
+-rw-r--r--      7,262,908 2009/05/04 16:41:56 R3301/FE52/timingReports20081113/R3301_signOff_reg2reg.tarpt
+
+sent 478 bytes  received 1,825 bytes  4,606.00 bytes/sec
+total size is 627,689,163  speedup is 272,552.83
+Start Sync /mnt/sdc1/temp/david/R3303 to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+drwxr-xr-x          4,096 2024/12/18 09:02:53 R3303
+drwxr-xr-x          4,096 2024/12/18 09:02:53 R3303/FE71
+drwxr-xr-x          4,096 2009/05/05 14:38:04 R3303/FE71/OUTPUT
+-rw-r--r--    266,854,750 2008/07/12 19:03:42 R3303/FE71/OUTPUT/R3300C71.spef.gz
+-rw-r--r--    137,505,523 2008/07/12 20:19:18 R3303/FE71/OUTPUT/R3300D71.spef.gz
+-rw-r--r--    137,857,776 2008/10/26 10:52:00 R3303/FE71/OUTPUT/R3303BfeecoD.spef.gz
+-rw-r--r--     11,525,473 2008/12/10 18:07:28 R3303/FE71/OUTPUT/TA.Fast.tgz
+-rw-r--r--     11,814,209 2008/12/10 18:11:12 R3303/FE71/OUTPUT/TA.PowerWorst.tgz
+-rw-r--r--     13,151,125 2008/12/10 18:08:52 R3303/FE71/OUTPUT/TA.Slow.tgz
+-rw-r--r--     12,044,029 2008/12/10 18:10:03 R3303/FE71/OUTPUT/TA.Typ.tgz
+
+sent 276 bytes  received 784 bytes  2,120.00 bytes/sec
+total size is 590,752,885  speedup is 557,314.04
+Start Sync /mnt/sdc1/temp/david/19991231-david.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+19991231-david.list
+
+sent 1,322,126 bytes  received 35 bytes  2,644,322.00 bytes/sec
+total size is 1,321,711  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/19991231-david-synopsys.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+19991231-david-synopsys.list
+
+sent 1,322,135 bytes  received 35 bytes  2,644,340.00 bytes/sec
+total size is 1,321,711  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/19991231-david-synopsys.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+19991231-david-synopsys.tar.gz.crypt
+
+sent 33,156,944 bytes  received 35 bytes  22,104,652.67 bytes/sec
+total size is 33,148,731  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/19991231-david.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+19991231-david.tar.gz.crypt
+
+sent 33,156,923 bytes  received 35 bytes  66,313,916.00 bytes/sec
+total size is 33,148,731  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/20000503-david-tapeout-1.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20000503-david-tapeout-1.list
+
+sent 2,969 bytes  received 35 bytes  6,008.00 bytes/sec
+total size is 2,860  speedup is 0.95
+Start Sync /mnt/sdc1/temp/david/20000503-david-tapeout-1.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20000503-david-tapeout-1.tar.gz.crypt
+
+sent 10,441,218 bytes  received 35 bytes  20,882,506.00 bytes/sec
+total size is 10,438,560  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/20000921-david.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20000921-david.list
+
+sent 5,457 bytes  received 35 bytes  10,984.00 bytes/sec
+total size is 5,358  speedup is 0.98
+Start Sync /mnt/sdc1/temp/david/20000921-david.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20000921-david.tar.gz.crypt
+
+sent 27,552,161 bytes  received 35 bytes  55,104,392.00 bytes/sec
+total size is 27,545,325  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/20001031-david.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20001031-david.list
+
+sent 98,069 bytes  received 35 bytes  196,208.00 bytes/sec
+total size is 97,958  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/20001031-david.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20001031-david.tar.gz.crypt
+
+sent 327,208,432 bytes  received 35 bytes  130,883,386.80 bytes/sec
+total size is 327,128,452  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/20010207-david-05um.tapeout.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20010207-david-05um.tapeout.list
+
+sent 46,657 bytes  received 35 bytes  93,384.00 bytes/sec
+total size is 46,541  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/20010207-david-05um.tapeout.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20010207-david-05um.tapeout.tar.gz.crypt
+
+sent 22,879,167 bytes  received 35 bytes  45,758,404.00 bytes/sec
+total size is 22,873,454  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/20010531-david486.gz to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20010531-david486.gz
+
+sent 177,421,146 bytes  received 35 bytes  118,280,787.33 bytes/sec
+total size is 177,377,745  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/20010531-david486.gz.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20010531-david486.gz.list
+
+sent 101 bytes  received 35 bytes  272.00 bytes/sec
+total size is 0  speedup is 0.00
+Start Sync /mnt/sdc1/temp/david/20010531-david-scanchain.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20010531-david-scanchain.list
+
+sent 116,909 bytes  received 35 bytes  233,888.00 bytes/sec
+total size is 116,780  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/20010531-david-scanchain.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20010531-david-scanchain.tar.gz.crypt
+
+sent 20,752,802 bytes  received 35 bytes  41,505,674.00 bytes/sec
+total size is 20,747,612  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/20010531-david-u18.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20010531-david-u18.list
+
+sent 292,295 bytes  received 35 bytes  584,660.00 bytes/sec
+total size is 292,132  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/20010531-david-u18.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20010531-david-u18.tar.gz.crypt
+
+sent 605,321,199 bytes  received 35 bytes  172,948,924.00 bytes/sec
+total size is 605,173,335  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/20010601-david018.gz to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20010601-david018.gz
+
+sent 566,237,306 bytes  received 35 bytes  161,782,097.43 bytes/sec
+total size is 566,099,009  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/20010601-david018.gz.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20010601-david018.gz.list
+
+sent 101 bytes  received 35 bytes  272.00 bytes/sec
+total size is 0  speedup is 0.00
+Start Sync /mnt/sdc1/temp/david/20020312-david-r486-035025018.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20020312-david-r486-035025018.list
+
+sent 132,731 bytes  received 35 bytes  265,532.00 bytes/sec
+total size is 132,589  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/20020312-david-r486-035025018.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20020312-david-r486-035025018.tar.gz.crypt
+
+sent 230,940,942 bytes  received 35 bytes  92,376,390.80 bytes/sec
+total size is 230,884,455  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/20020312-david-r8870-ftc018.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20020312-david-r8870-ftc018.list
+
+sent 137,674 bytes  received 35 bytes  275,418.00 bytes/sec
+total size is 137,534  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/20020312-david-r8870-ftc018.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20020312-david-r8870-ftc018.tar.gz.crypt
+
+sent 155,748,773 bytes  received 35 bytes  103,832,538.67 bytes/sec
+total size is 155,710,648  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/20030320-david-DSP-FTC018.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20030320-david-DSP-FTC018.list
+
+sent 1,126,448 bytes  received 35 bytes  2,252,966.00 bytes/sec
+total size is 1,126,070  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/20030320-david-DSP-FTC018.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20030320-david-DSP-FTC018.tar.gz.crypt
+
+sent 442,704,222 bytes  received 35 bytes  177,081,702.80 bytes/sec
+total size is 442,596,047  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/20030320-david-DSP-TSMC018.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20030320-david-DSP-TSMC018.list
+
+sent 759,029 bytes  received 35 bytes  1,518,128.00 bytes/sec
+total size is 758,738  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/20030320-david-DSP-TSMC018.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20030320-david-DSP-TSMC018.tar.gz.crypt
+
+sent 436,443,337 bytes  received 35 bytes  124,698,106.29 bytes/sec
+total size is 436,336,689  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/20030421-david-PKS2_adb.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20030421-david-PKS2_adb.list
+
+sent 509 bytes  received 35 bytes  1,088.00 bytes/sec
+total size is 401  speedup is 0.74
+Start Sync /mnt/sdc1/temp/david/20030421-david-PKS2_adb.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20030421-david-PKS2_adb.tar.gz.crypt
+
+sent 78,031,215 bytes  received 35 bytes  52,020,833.33 bytes/sec
+total size is 78,012,050  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/20030421-david-PKS_adb.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20030421-david-PKS_adb.list
+
+sent 1,330 bytes  received 35 bytes  2,730.00 bytes/sec
+total size is 1,223  speedup is 0.90
+Start Sync /mnt/sdc1/temp/david/20030421-david-PKS_adb.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20030421-david-PKS_adb.tar.gz.crypt
+
+sent 186,897,303 bytes  received 35 bytes  124,598,225.33 bytes/sec
+total size is 186,851,563  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/20030421-david-PKS_SPC.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20030421-david-PKS_SPC.list
+
+sent 2,214 bytes  received 35 bytes  4,498.00 bytes/sec
+total size is 2,107  speedup is 0.94
+Start Sync /mnt/sdc1/temp/david/20030421-david-PKS_SPC.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20030421-david-PKS_SPC.tar.gz.crypt
+
+sent 331,055,864 bytes  received 35 bytes  132,422,359.60 bytes/sec
+total size is 330,974,940  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/20030421-david-r486.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20030421-david-r486.list
+
+sent 354,106 bytes  received 35 bytes  708,282.00 bytes/sec
+total size is 353,926  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/20030421-david-r486.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20030421-david-r486.tar.gz.crypt
+
+sent 282,068,701 bytes  received 35 bytes  188,045,824.00 bytes/sec
+total size is 281,999,740  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/20030421-david-SPC.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20030421-david-SPC.list
+
+sent 586 bytes  received 35 bytes  1,242.00 bytes/sec
+total size is 483  speedup is 0.78
+Start Sync /mnt/sdc1/temp/david/20030421-david-SPC.tar.gz.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20030421-david-SPC.tar.gz.crypt
+
+sent 66,135,613 bytes  received 35 bytes  44,090,432.00 bytes/sec
+total size is 66,119,357  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/20090506-david-R3301_3.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20090506-david-R3301_3.list
+
+sent 2,491 bytes  received 35 bytes  5,052.00 bytes/sec
+total size is 2,372  speedup is 0.94
+Start Sync /mnt/sdc1/temp/david/20090506-david-R3301_3.tar.bz2 to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20090506-david-R3301_3.tar.bz2
+
+sent 1,176,897,592 bytes  received 35 bytes  181,061,173.38 bytes/sec
+total size is 1,176,610,228  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/20090506-david-R3301_3.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20090506-david-R3301_3.tar.bz2.crypt
+
+sent 1,176,897,610 bytes  received 35 bytes  156,919,686.00 bytes/sec
+total size is 1,176,610,228  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-1.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20090902-david-F90-1.list
+
+sent 28,928 bytes  received 35 bytes  57,926.00 bytes/sec
+total size is 28,811  speedup is 0.99
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-1.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20090902-david-F90-1.tar.bz2.crypt
+
+sent 222,445,099 bytes  received 35 bytes  148,296,756.00 bytes/sec
+total size is 222,390,688  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-2.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20090902-david-F90-2.list
+
+sent 1,660,575 bytes  received 35 bytes  3,321,220.00 bytes/sec
+total size is 1,660,062  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-2.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20090902-david-F90-2.tar.bz2.crypt
+
+sent 418,421,437 bytes  received 35 bytes  119,548,992.00 bytes/sec
+total size is 418,319,186  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-3.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20090902-david-F90-3.list
+
+sent 1,700,457 bytes  received 35 bytes  3,400,984.00 bytes/sec
+total size is 1,699,936  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-3.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20090902-david-F90-3.tar.bz2.crypt
+
+sent 431,239,910 bytes  received 35 bytes  172,495,978.00 bytes/sec
+total size is 431,134,531  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-4.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20090902-david-F90-4.list
+
+sent 119,445 bytes  received 35 bytes  238,960.00 bytes/sec
+total size is 119,308  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-4.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20090902-david-F90-4.tar.bz2.crypt
+
+sent 666,667,388 bytes  received 35 bytes  148,148,316.22 bytes/sec
+total size is 666,504,545  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-5.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20090902-david-F90-5.list
+
+sent 157,058 bytes  received 35 bytes  314,186.00 bytes/sec
+total size is 156,913  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/20090902-david-F90-5.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20090902-david-F90-5.tar.bz2.crypt
+
+sent 515,110,334 bytes  received 35 bytes  147,174,391.14 bytes/sec
+total size is 514,984,483  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-1.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20090902-david-UMCL90G-1.list
+
+sent 2,103,171 bytes  received 35 bytes  4,206,412.00 bytes/sec
+total size is 2,102,542  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-1.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20090902-david-UMCL90G-1.tar.bz2.crypt
+
+sent 628,559,495 bytes  received 35 bytes  139,679,895.56 bytes/sec
+total size is 628,405,952  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-2.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20090902-david-UMCL90G-2.list
+
+sent 218 bytes  received 35 bytes  506.00 bytes/sec
+total size is 97  speedup is 0.38
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-2.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20090902-david-UMCL90G-2.tar.bz2.crypt
+
+sent 961,703,201 bytes  received 35 bytes  147,954,344.00 bytes/sec
+total size is 961,468,346  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-3.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20090902-david-UMCL90G-3.list
+
+sent 50,609 bytes  received 35 bytes  101,288.00 bytes/sec
+total size is 50,484  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-3.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20090902-david-UMCL90G-3.tar.bz2.crypt
+
+sent 17,997,006 bytes  received 35 bytes  35,994,082.00 bytes/sec
+total size is 17,992,487  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-4.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20090902-david-UMCL90G-4.list
+
+sent 5,232,917 bytes  received 35 bytes  10,465,904.00 bytes/sec
+total size is 5,231,528  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-4.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20090902-david-UMCL90G-4.tar.bz2.crypt
+
+sent 911,350,786 bytes  received 35 bytes  165,700,149.27 bytes/sec
+total size is 911,128,219  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-5.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20090902-david-UMCL90G-5.list
+
+sent 88,893 bytes  received 35 bytes  177,856.00 bytes/sec
+total size is 88,760  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-5.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20090902-david-UMCL90G-5.tar.bz2.crypt
+
+sent 1,163,464,182 bytes  received 35 bytes  155,128,562.27 bytes/sec
+total size is 1,163,180,078  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-6.list to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20090902-david-UMCL90G-6.list
+
+sent 187,700 bytes  received 35 bytes  375,470.00 bytes/sec
+total size is 187,543  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/20090902-david-UMCL90G-6.tar.bz2.crypt to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+20090902-david-UMCL90G-6.tar.bz2.crypt
+
+sent 843,941,978 bytes  received 35 bytes  187,542,669.56 bytes/sec
+total size is 843,735,867  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/R3301 to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+R3301/
+R3301/FE52/
+R3301/FE52/OUTPUT20081113/
+R3301/FE52/OUTPUT20081113/R3301.def.gz
+R3301/FE52/OUTPUT20081113/R3301.gds.gz
+R3301/FE52/OUTPUT20081113/R3301C.spef.gz
+R3301/FE52/OUTPUT20081113/R3301D.spef.gz
+R3301/FE52/timingReports20081113/
+R3301/FE52/timingReports20081113/R3301_signOff.cap
+R3301/FE52/timingReports20081113/R3301_signOff.fanout
+R3301/FE52/timingReports20081113/R3301_signOff.slk
+R3301/FE52/timingReports20081113/R3301_signOff.summary
+R3301/FE52/timingReports20081113/R3301_signOff.tran
+R3301/FE52/timingReports20081113/R3301_signOff_all.tarpt
+R3301/FE52/timingReports20081113/R3301_signOff_clkgate.tarpt
+R3301/FE52/timingReports20081113/R3301_signOff_in2out.tarpt
+R3301/FE52/timingReports20081113/R3301_signOff_in2reg.tarpt
+R3301/FE52/timingReports20081113/R3301_signOff_reg2out.tarpt
+R3301/FE52/timingReports20081113/R3301_signOff_reg2reg.tarpt
+
+sent 627,843,490 bytes  received 321 bytes  139,520,846.89 bytes/sec
+total size is 627,689,163  speedup is 1.00
+Start Sync /mnt/sdc1/temp/david/R3303 to /HD6501/Old_home && chown -R A9812-07:rdc-srd /HD6501/Old_home/temp
+sending incremental file list
+R3303/
+R3303/FE71/
+R3303/FE71/OUTPUT/
+R3303/FE71/OUTPUT/R3300C71.spef.gz
+R3303/FE71/OUTPUT/R3300D71.spef.gz
+R3303/FE71/OUTPUT/R3303BfeecoD.spef.gz
+R3303/FE71/OUTPUT/TA.Fast.tgz
+R3303/FE71/OUTPUT/TA.PowerWorst.tgz
+R3303/FE71/OUTPUT/TA.Slow.tgz
+R3303/FE71/OUTPUT/TA.Typ.tgz
+
+sent 590,897,671 bytes  received 161 bytes  131,310,629.33 bytes/sec
+total size is 590,752,885  speedup is 1.00

@@ -1,0 +1,26 @@
+#!/bin/bash
+
+trap "echo Ctrl-C Exited!; exit;" SIGINT SIGTERM
+
+log=$1
+if [ -z "$log" ]; then
+    echo "Usage: $0 <logfile>"
+    exit 1
+fi
+
+day=$(date +%-d)
+
+month_dir=$(date +%Y-%m)
+
+mkdir -p /var/log/backup_log/"git_bk_$month_dir"
+
+log_filename=$(basename "$log")
+backup="/var/log/backup_log/git_bk_$month_dir/$log_filename.$day"
+
+if [ -f "$log" ]; then
+    \cp "$log" "$backup"
+    echo "[✓] Backup saved as: $backup"
+else
+    echo "[!] Log file not found: $log"
+    exit 2
+fi

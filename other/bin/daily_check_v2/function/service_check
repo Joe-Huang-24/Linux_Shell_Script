@@ -1,0 +1,14 @@
+#!/bin/bash
+
+services=("ypbind" "autofs" "nfs")
+echo -e "\e[1;35mChecking Main Service YPBind and Autofs\e[0m"
+for i in "${services[@]}"; do
+    if service "$i" status >> /dev/null 2>&1 ; then
+        echo -e "\e[1;33mService $i is Active\e[0m"
+    else
+        echo -e "\e[1;31mService $i is Dead\e[0m"
+    fi
+done
+unset services
+echo
+echo

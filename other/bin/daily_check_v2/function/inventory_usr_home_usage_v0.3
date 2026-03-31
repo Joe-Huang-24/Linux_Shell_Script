@@ -1,0 +1,33 @@
+#!/bin/bash
+
+hd_name=$(awk '$3 != "nfs" {print $2}' /proc/mounts | grep -i "/HD")
+usr_home_list=$(ls -1 "$hd_name/home")
+log_dir="/mis_daily_check/log/inventory_user_home"
+log_file="$log_dir/$(hostname)_$(date +%Y-%m-%d)_inventory_user_home.log"
+over_usage_bytes=$((5 * 1024 * 1024 * 1024 * 1024))  # 10T
+
+mkdir -p "$log_dir"
+
+if [ -d "$hd_name/home" ]; then
+    for i in $usr_home_list; do
+        size_human=$(du -sh "$hd_name/home/$i" | awk '{print $1}')
+        size_bytes=$(du -sb "$hd_name/home/$i" | awk '{print $1}')
+        path="$hd_name/home/$i"
+
+        echo -e "\e[1;34m正在盤點: $i home folder 使用大小: $size_human ($path)\e[0m"
+        if [ "$size_bytes" -ge "$over_usage_bytes" ]; then
+            echo -e "\e[31mWarning: $i home 使用超過 5T ($size_human)\e[0m"
+        fi
+
+        {
+            echo "正在盤點: $i home folder 使用大小: $size_human ($path)"
+            if [ "$size_bytes" -ge "$over_usage_bytes" ]; then
+                echo "Warning: $i home 使用超過 5T ($size_human)"
+            fi
+        } >> "$log_file"
+    done
+else
+    echo -e "\e[1;31mCould not access $hd_name/home\e[0m"
+    echo "Could not access $hd_name/home" >> "$log_file"
+fi
+

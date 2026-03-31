@@ -1,0 +1,76 @@
+#!/bin/bash
+
+
+LOG_DIR="/var/log/backup_log"
+STATUS_MSG="Backup Finish!!"  # 備份完成的標誌信息
+
+LOG_FILES=(
+    "${LOG_DIR}/$(date +%Y-%m-%d)_HD6505_backup_to_snas.log"
+    "${LOG_DIR}/$(date +%Y-%m-%d)_HD6505_backup_to_snas3.log"
+)
+
+usage() {
+    echo "Usage: $0 [-d DAYS] [-n NTH_DAY] [-h]"
+    echo "  -d DAYS      Check backup status for the last N days (default: 1 day)"
+    echo "  -n NTH_DAY   Check backup status for a specific day (e.g., 0 for today, 1 for yesterday)"
+    echo "  -h           Show this help message"
+    exit 0
+}
+
+check_single_log() {
+    local log_file=$1
+    if [[ -f "$log_file" ]]; then
+        local last_line
+        last_line=$(tail -n 1 "$log_file")
+        if [[ "$last_line" == "$STATUS_MSG" ]]; then
+            echo -e "\e[32m$(basename "$log_file"): Backup Finished Successfully.\e[0m"
+        else
+            echo -e "\e[31m$(basename "$log_file"): Backup Incomplete or Error: $last_line\e[0m"
+        fi
+    else
+        echo -e "\e[33m$(basename "$log_file"): Log file not found.\e[0m"
+    fi
+}
+
+check_logs_for_date() {
+    local date=$1
+    for log_file_template in "${LOG_FILES[@]}"; do
+        local log_file
+        log_file=$(echo "$log_file_template" | sed "s/$(date +%Y-%m-%d)/$date/")
+        check_single_log "$log_file"
+    done
+}
+
+CHECK_DAYS=1  
+NTH_DAY=-1   
+while getopts "d:n:h" opt; do
+    case $opt in
+        d)
+            CHECK_DAYS=$OPTARG
+            ;;
+        n)
+            NTH_DAY=$OPTARG
+            ;;
+        h)
+            usage
+            ;;
+        *)
+            usage
+            ;;
+    esac
+done
+
+if [[ $NTH_DAY -ge 0 ]]; then
+    date_to_check=$(date -d "$NTH_DAY days ago" +%Y-%m-%d)
+    echo -e "\e[34mChecking logs for date: $date_to_check\e[0m"
+    check_logs_for_date "$date_to_check"
+else
+    echo -e "\e[34mChecking backup status for the last $CHECK_DAYS day(s)...\e[0m"
+    for ((i=0; i<CHECK_DAYS; i++)); do
+        date_to_check=$(date -d "$i days ago" +%Y-%m-%d)
+        echo -e "\e[34mChecking logs for date: $date_to_check\e[0m"
+        check_logs_for_date "$date_to_check"
+    done
+fi
+
+echo -e "\e[34mBackup status check complete.\e[0m"

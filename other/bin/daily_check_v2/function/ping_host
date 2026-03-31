@@ -1,0 +1,45 @@
+#!/bin/bash
+
+set -uo pipefail
+
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+[[ -v BASE_DIR ]]      || BASE_DIR="/mis_daily_check"
+[[ -v TOOL_DIR ]]      || TOOL_DIR="${BASE_DIR}/tools"
+[[ -v TOOL_BIN_DIR ]]  || TOOL_BIN_DIR="${TOOL_DIR}/bin"
+[[ -v SCRIPT_DIR ]]    || SCRIPT_DIR="${TOOL_BIN_DIR}/daily_check_v2"
+[[ -v FUNCTION_DIR ]]  || FUNCTION_DIR="${SCRIPT_DIR}/function"
+[[ -v IPLIST_FILE ]]   || IPLIST_FILE="${FUNCTION_DIR}/iplist.txt"
+
+[[ -v C_RESET ]]   || C_RESET='\e[0m'
+[[ -v C_RED ]]     || C_RED='\e[1;31m'
+[[ -v C_GREEN ]]   || C_GREEN='\e[1;32m'
+[[ -v C_YELLOW ]]  || C_YELLOW='\e[1;33m'
+[[ -v C_PURPLE ]]  || C_PURPLE='\e[1;35m'
+[[ -v C_CYAN ]]    || C_CYAN='\e[1;36m'
+
+msg()   { printf '%b\n' "$*"; }
+info()  { msg "${C_CYAN}$*${C_RESET}"; }
+title() { msg "${C_PURPLE}$*${C_RESET}"; }
+ok()    { msg "${C_GREEN}$*${C_RESET}"; }
+warn()  { msg "${C_YELLOW}$*${C_RESET}"; }
+err()   { msg "${C_RED}$*${C_RESET}"; }
+
+ping_hosts() {
+	local iplist="$IPLIST_FILE"
+
+	if [[ ! -r "$iplist" ]]; then
+        	err "Cannot read ip list: $iplist"
+		return 1
+	fi
+
+	cat "$iplist" | while read output; do
+        	if ping -c 2 "$output" > /dev/null 2>&1; then
+			echo $?
+#            		ok "Server $output is up"
+        	else
+			echo $?	
+#            		err "Server $output is down"
+        	fi
+    	done
+}

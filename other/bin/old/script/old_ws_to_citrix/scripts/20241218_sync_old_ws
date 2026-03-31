@@ -1,0 +1,29 @@
+#!/bin/bash
+
+david_list=`ls -l /mnt/sdc1/temp/david | awk -F ' ' '{print $9}'`
+
+
+if cat /proc/mounts | grep /mnt/sdc1 ; then
+#        echo -e "\e[33mStart Sync /mnt/sdc1/benpan to $(hostname) $(cat /proc/mounts | awk -F ' ' '$3 != nfs {print $2}' | grep -i "/HD")/Old_home\e[0m" >> /backup_sh/old_ws_to_citrix/log/sync_old_ws.log 2>&1
+#        rsync -avH /mnt/sdc1/benpan $(cat /proc/mounts | awk -F ' ' '$3 != nfs {print $2}' | grep -i "/HD")/Old_home && chown -R A9812-07:rdc-srd $(cat /proc/mounts | awk -F ' ' '$3 != nfs {print $2}' | grep -i "/HD")/Old_home/benpan >> /backup_sh/old_ws_to_citrix/log/sync_old_ws.log 2>&1
+#        echo -e "\e[33mSync /mnt/sdc1/benpan to $(hostname) $(cat /proc/mounts | awk -F ' ' '$3 != nfs {print $2}' | grep -i "/HD")/Old_home Finished\e[0m" >> /backup_sh/old_ws_to_citrix/log/sync_old_ws.log 2>&1
+#	echo -e "\e[33mCopy /mnt/sdc1/A9830 SIM RTL SIM_NETLIST Power_ana to /Project1/A9830\e[0m"
+#	cp -fr /mnt/sdc1/A9830/SIM /Project1/A9830
+#	cp -fr /mnt/sdc1/A9830/RTL /Project1/A9830
+#	cp -fr /mnt/sdc1/A9830/SIM_NETLIST /Project1/A9830
+#	cp -fr /mnt/sdc1/A9830/Power_ana /Project1/A9830
+        for i in ${david_list[@]}; do
+                if [ -d /HD6501/Old_home/temp ]; then
+                        echo "Start Sync /mnt/sdc1/temp/david/$i to $(cat /proc/mounts | awk -F ' ' '$3 != nfs {print $2}' | grep -i "/HD")/Old_home && chown -R A9812-07:rdc-srd $(cat /proc/mounts | awk -F ' ' '$3 != nfs {print $2}' | grep -i "/HD")/Old_home/temp" >> /backup_sh/old_ws_to_citrix/log/sync_david.log 2>&1
+                        rsync -avH /mnt/sdc1/temp/david/$i /HD6501/Old_home/temp >> /backup_sh/old_ws_to_citrix/log/sync_david.log 2>&1
+			echo "Sync /mnt/sdc1/temp/david/$i to $(cat /proc/mounts | awk -F ' ' '$3 != nfs {print $2}' | grep -i "/HD")/Old_home/temp Finished" >> /backup_sh/old_ws_to_citrix/log/sync_old_ws.log 2>&1
+                else
+                        mkdir -p $(cat /proc/mounts | awk -F ' ' '$3 != nfs {print $2}' | grep -i "/HD")/Old_home/temp
+			exit 1
+                fi
+        done
+else
+        exit 1
+fi
+echo "Sync /mnt/sdc1/temp/david/$i to $(cat /proc/mounts | awk -F ' ' '$3 != nfs {print $2}' | grep -i "/HD")/Old_home && chown -R A9812-07:rdc-srd $(cat /proc/mounts | awk -F ' ' '$3 != nfs {print $2}' | grep -i "/HD")/Old_home/temp Finished" >> /backup_sh/old_ws_to_citrix/log/sync_old_ws.log 2>&1
+umount -l /mnt/sdc1

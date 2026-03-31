@@ -1,0 +1,81 @@
+#!/usr/bin/env bash
+
+#export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+usage() {
+	cat <<'EOF'
+Usage: $0 [-a] [-l] [-h] [-i]
+	-a    show all check data
+	-i    Check all server information (services: ypbind, autofs)
+	-l    Check backup status
+	-h    Show this help message
+EOF
+}
+
+del_log() {
+	find /mis_daily_check/log -type f -name "*.log" -mmin +120 -exec rm -rf {} \;
+}	
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+FUNC_PING_HS_FILE="${FUNC_PING_HS_FILE:-${SCRIPT_DIR}/function/ping_hs.sh}"
+FUNC_DAILY_BACKUP_FILE="${FUNC_DAILY_BACKUP_FILE:-${SCRIPT_DIR}/function/daily_backup.sh}"
+FUNC_SERVICE_CHECK_FILE="${FUNC_SERVICE_CHECK_FILE:-${SCRIPT_DIR}/function/service_check}"
+FUNC_SH_SRV_INFO_FILE="${FUNC_SH_SRV_INFO_FILE:-${SCRIPT_DIR}/function/show_srv_information}"
+#FUNC_PING_HS_FILE="${FUNC_FILE:-${SCRIPT_DIR}/function/ping_hs.sh}"
+
+# Load env if present; it's OK if missing (we'll fallback)
+if [[ -f "$ENV_FILE" && -f "$FUNC_FILE" ]]; then
+        source "$FUNC_PING_HS_FILE"
+        source "$FUNC_DAILY_BACKUP_FILE"
+	source "$FUNC_SERVICE_CHECK_FILE"
+	source "$FUNC_SH_SRV_INFO_FILE"
+fi
+
+
+
+while getopts "ailhp" opt; do
+    case $opt in
+        a)
+	    show_srv_information
+            services_check
+	    daily_backup
+            exit 0
+	    ;;
+        i)
+            show_srv_information
+            services_check
+            exit 0
+            ;;
+        l)
+            daily_backup
+            exit 0
+            ;;
+	p)
+	    ping_hosts
+	    exit 0
+            ;;
+        h)
+            usage
+            ;;
+        *)
+            usage
+            ;;
+    esac
+done
+
+# If No parameters are specified, Used Default Value.
+{
+if [[ $# -eq 0 ]]; then
+	echo -e "\e[36mIf No parameters are specified, Used Default Value.\e[0m\n"
+#	echo -e "\e[
+	show_srv_information
+	services_check
+	daily_backup
+	echo -e "\n\e[35mShow $(hostname) NTP SYNC.\e[0m"
+	chronyc sources -v
+	del_log
+	exit 0
+fi
+} >> /mis_daily_check/log/$(hostname)_$(date +%Y-%m-%d-%T)_Daily_Check.log
+
+

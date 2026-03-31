@@ -1,0 +1,45 @@
+#!/bin/bash
+
+mount 172.16.11.8:/volume1/Backup /snas
+
+log="/var/log/backup_log/"
+#backup_path=("/var/opt" "/etc/gitlab/gitlab.rb" "/opt/gitlab")
+backup_path=("/var/opt" "/etc/gitlab" "/opt/gitlab")
+backup_des="/OoO_NAS/gitlab/"
+timestamp=$(date +%Y-%m-%d)
+
+LOGFILE=$log/backup_gitlab_db_to_OoO_NAS_$timestamp
+
+log_red() {
+    echo -e "\033[31m$(date '+%Y-%m-%d %H:%M:%S') - \033[0m$1" | tee -a "$LOGFILE"
+}
+
+log_yellow() {
+    echo -e "\033[33m$(date '+%Y-%m-%d %H:%M:%S') - \033[0m$1" | tee -a "$LOGFILE"
+}
+
+log_green() {
+    echo -e "\033[32m$(date '+%Y-%m-%d %H:%M:%S') - $1\033[0m" | tee -a "$LOGFILE"
+}
+
+if grep "OoO_NAS" /proc/mounts ; then
+	log_yellow "Start creating the backup job"
+#	gitlab-rake gitlab:backup:create SKIP = db,uploads
+	gitlab-backup create
+	log_green "Backup Process -1 Finished ..."
+	log_green "sleep 10s"
+	sleep 10
+	log_green "Delete backups older than 60 days"
+	find /var/opt/gitlab/backups -name *_gitlab_backup.tar -type f -mtime +60 -exec rm -rf {} \;
+	log_yellow "Starting Backup Database to $backup_des"
+	for i in ${backup_path[@]}; do
+		rsync -avh $i $backup_des
+	done
+	log_green "Backup Success!!! at $timestamp"
+	log_green ""
+	find /var/log/backup_log/ -type f -name "*backup*.log" -mtime +5 -exec rm -rf {} \;
+else
+	log_red "Backup Failed!!! at $timestamp"
+	exit 0
+fi
+

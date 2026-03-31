@@ -1,0 +1,21 @@
+#!/bin/bash
+
+prj_list=`cat /backup_sh/cp_fld/List`
+
+#if [ -d /HD6501/Old_home ]; then
+if mount | grep /dev/sdc1;then
+#	mount /dev/sdc1 /mnt/sdc1
+	if [ -d /HD6501/Old_home ];then
+		for i in ${prj_list[@]};do
+#			echo "$i"
+	        	rsync -avh /mnt/sdc1/$i /HD6501/Old_Project1 >> /backup_sh/cp_fld/log/$(date +%Y%m%d)_CP_Old_Project1.log
+		done
+	        echo -e "CP Folder Success!!" >> /backup_sh/cp_fld/log/$(date +%Y%m%d)_CP_Old_Project1.log
+	else
+		echo "Con not exist HD6501/Old_home" >> /backup_sh/cp_fld/log/$(date +%Y%m%d)_CP_Old_Project1.log
+	fi
+	umount -l /mnt/sdc1
+else
+	echo "Could not mount /dev/sdc1 to /mnt/sdc1 and Trying Remount /dev/sdc1 to /mnt/sdc1"
+	mount /dev/sdc1 /mnt/sdc1
+fi

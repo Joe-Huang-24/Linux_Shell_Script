@@ -1,0 +1,34 @@
+#!/bin/bash
+
+case "${1}" in
+    "Logic2")
+        echo "開始處理 Logic2 任務..."
+#        /backup_sh/old_ws_to_citrix/scripts/Logic2
+        # 掛載設備
+        /backup_sh/old_ws_to_citrix/function/check_and_mount /mnt/sdc1 /dev/sdc1
+	# 執行Logic2
+	/backup_sh/old_ws_to_citrix/scripts/Logic2
+        ;;
+    "Logic3")
+        echo "開始處理 Logic3 任務..."
+#	/backup_sh/old_ws_to_citrix/scripts/Logic3
+
+        # 掛載設備
+        /backup_sh/old_ws_to_citrix/function/check_and_mount /mnt/sdc1 /dev/sdc1
+	# 執行Logic3
+	/backup_sh/old_ws_to_citrix/scripts/Logic3
+        ;;
+    "sync_old_ws")
+        echo "開始處理 Logic3 任務..."
+#       /backup_sh/old_ws_to_citrix/scripts/Logic3
+
+        # 掛載設備
+        /backup_sh/old_ws_to_citrix/function/check_and_mount /mnt/sdc1 /dev/sdc1
+        # 執行Logic3
+        /backup_sh/old_ws_to_citrix/scripts/20241218_sync_old_ws
+        ;;
+    *)
+        echo "用法：$0 {Logic2|Logic3}"
+        exit 1
+        ;;
+esac

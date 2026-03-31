@@ -1,0 +1,12 @@
+#!/bin/bash
+
+prj_list=`cat /backup_sh/cp_fld/List`
+
+if [ -d /sr650-6/Old_Project1 ];then
+	for i in ${prj_list[@]};do
+        	rsync -avh /sr650-6/Old_Project1/$i /HD6501/Old_Project1/. >> /backup_sh/cp_fld/log/$(date +%Y%m%d)_CP_Old_Project1_New.log
+	done
+        echo -e "CP Folder Success!!" >> /backup_sh/cp_fld/log/$(date +%Y%m%d)_CP_Old_Project1_New.log
+else
+	echo "Con not exist sr650-6/Old_Project1" >> /backup_sh/cp_fld/log/$(date +%Y%m%d)_CP_Old_Project1_New.log
+fi

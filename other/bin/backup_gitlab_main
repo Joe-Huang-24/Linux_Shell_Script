@@ -1,0 +1,25 @@
+#!/bin/bash
+
+log="/var/log/backup_log/gitlab_backup_to_OoO_SNAS.log"
+
+backup_path=("/var/opt" "/etc/gitlab/gitlab.rb" "/opt/gitlab")
+backup_des="/OoO_NAS/gitlab/"
+timestamp=$(date +%Y-%m-%d)
+
+LOGFILE=$log/backup_gitlab_db_to_OoO_NAS_$timestamp
+
+log_red() {
+    echo -e "\033[31m$(date '+%Y-%m-%d %H:%M:%S') - \033[0m$1" | tee -a "$LOGFILE"
+}
+
+log_yellow() {
+    echo -e "\033[33m$(date '+%Y-%m-%d %H:%M:%S') - \033[0m$1" | tee -a "$LOGFILE"
+}
+
+log_green() {
+    echo -e "\033[32m$(date '+%Y-%m-%d %H:%M:%S') - $1\033[0m" | tee -a "$LOGFILE"
+}
+
+/backup_sh/backup_gitlab_save_log $log
+/backup_sh/backup_gitlab $1 >& $log
+find /var/log/backup_log -type d -mtime +60 -exec rm -fr {} \;

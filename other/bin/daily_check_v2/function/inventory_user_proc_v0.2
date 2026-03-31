@@ -1,0 +1,49 @@
+#!/bin/bash
+
+# -------------------------
+CPU_THRESHOLD=60.0
+MEM_THRESHOLD=60.0
+LOG_FILE="/mis_daily_check/log/inventory_user_home/user_resource_usage.log"
+# -------------------------
+
+nis_users=$(ypcat passwd | awk -F ':' '$1 != "root" && $3 >= 1000 {print $1}' | sort)
+
+> "$LOG_FILE"
+
+for user in $nis_users; do
+    if w | grep -qw "$user"; then
+        usage=$(ps -u "$user" -o %cpu,%mem --no-headers | awk '{cpu+=$1; mem+=$2} END {printf "%.2f %.2f", cpu, mem}')
+        cpu_use=$(echo $usage | awk '{print $1}')
+        mem_use=$(echo $usage | awk '{print $2}')
+
+        if [[ -z "$cpu_use" || -z "$mem_use" ]]; then
+            continue
+        fi
+
+        show=false
+        status=""
+        highlight="\e[32m"
+
+        if (( $(echo "$cpu_use >= $CPU_THRESHOLD" | bc -l) )); then
+            show=true
+            status="HIGH CPU"
+            highlight="\e[33m"
+        fi
+
+        if (( $(echo "$mem_use >= $MEM_THRESHOLD" | bc -l) )); then
+            if [[ $status == "HIGH CPU" ]]; then
+                status="HIGH CPU+MEM"
+                highlight="\e[31m"
+            else
+                status="HIGH MEM"
+                highlight="\e[35m"
+                show=true
+            fi
+        fi
+
+        if [[ "$show" == true ]]; then
+            echo -e "${highlight}User: \e[36m$user${highlight}\tCPU: ${cpu_use}%\tMEM: ${mem_use}%\tStatus: \e[31m$status\e[0m" | tee -a "$LOG_FILE"
+        fi
+    fi
+done
+
